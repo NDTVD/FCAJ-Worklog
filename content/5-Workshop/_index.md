@@ -19,7 +19,7 @@ The workshop uses six templates, `foundation.yaml`, `network.yaml`, `database.ya
 | [5.3 Foundation and Network](5.3-Foundation-Network/) | Import Foundation and deploy networking. |
 | [5.4 Database and Integrations](5.4-Database-Integrations/) | Fresh Database and PDF scanning integration. |
 | [5.5 Runtime, seeding and Edge](5.5-Runtime-Edge/) | Edge maintenance, Runtime, bootstrap, migrations, seeding and live traffic. |
-| 5.6 | Application verification and web demonstration. |
+| [5.6 Application verification and demo](5.6-Verification-Demo/) | Verification of React UI, API integration, SignalR chat, CORS, and Rate Limiting. |
 | [5.7 Clean up resources](5.7-Cleanup/) | Recorded cleanup with verified progress and screenshots. |
 
 ## Current practical session

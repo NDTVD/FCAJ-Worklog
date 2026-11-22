@@ -47,6 +47,6 @@ The diagram shows the arrangement of service groups and application components.
 2. Import retained Foundation resources, restore the main template and create Network in section 5.3.
 3. Create the Fresh Database and Integrations in section 5.4.
 4. Create Edge maintenance to obtain its hostname, provision Runtime with DesiredCount 0, prepare and seed the database, enable the API and switch Edge live in section 5.5.
-5. Verify and demonstrate the application in section 5.6.
+5. Verify and demonstrate the application in [section 5.6](../5.6-Verification-Demo/).
 
 This session uses the existing account in `us-east-1`, a new CloudFront hostname and newly seeded demo data. Deployment pages record verified results and screenshots as execution proceeds.

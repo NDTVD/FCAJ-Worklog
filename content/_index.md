@@ -9,7 +9,7 @@ chapter: false
 
 ### Student Information
 
-&emsp; **Full Name:** Trần Minh Tuấn
+&emsp; **Full Name:** Cao Thành Nhân
 
 &emsp; **Phone Number:** 0963198339
 

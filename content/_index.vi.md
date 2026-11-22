@@ -7,7 +7,7 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Trần Minh Tuấn
+&emsp; **Họ và tên:** Cao Thành Nhân
 
 &emsp; **Số điện thoại:** 0963198339
 
