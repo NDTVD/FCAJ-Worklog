@@ -10,7 +10,7 @@ pre: " <b> 6. </b> "
 
 Trong chương trình **First Cloud AI Journey (FCAJ)**, em (**Cao Thành Nhân**) đã hoàn thành việc học tập các kiến thức nền tảng điện toán đám mây qua khóa **AWS Cloud Practitioner Essentials**, đồng thời trực tiếp đảm nhận vai trò **Kỹ sư Frontend (React / TypeScript / Tailwind CSS)** và hỗ trợ tối ưu **Backend (CORS, Message Rate Limiting)** cho dự án **Tindy**. 
 
-Báo cáo ghi nhận ba đầu ra trọng tâm của em là [nhật ký học tập Worklog 13 tuần](/vi/1-worklog/), [bản đề xuất kỹ thuật Tindy](/vi/2-proposal/), và [kịch bản kiểm thử giao diện & tích hợp Workshop 5.6](/vi/5-workshop/5.6-verification-demo/).
+Báo cáo ghi nhận ba đầu ra trọng tâm của em là [nhật ký học tập Worklog 13 tuần](/vi/1-worklog/), [bản đề xuất kỹ thuật Tindy](/vi/2-proposal/), và [kịch bản kiểm thử giao diện & video demo Workshop 5.6](/vi/5-workshop/5.6-application-demo/).
 
 ---
 

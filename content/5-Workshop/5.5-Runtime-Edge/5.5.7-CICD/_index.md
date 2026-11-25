@@ -37,7 +37,7 @@ Retain options, acknowledge IAM capability and create the change set. Expect Add
 | Infrastructure | `TINDY_INFRA_PLANNER_ROLE_ARN` | Current Foundation InfraPlannerRoleArn |
 | Infrastructure | `TINDY_LIFECYCLE_ROLE_ARN` | New Foundation LifecycleRoleArn |
 
-Application verification and web demonstration scenarios are documented in [Section 5.6 — Application Verification and Demo](../../5.6-Verification-Demo/).
+Application verification and web demonstration video are documented in [Section 5.6 — Application Verification and Demo Video](../../5.6-Application-Demo/).
 
 ## 3. Recorded CI/CD change-set configuration
 

@@ -37,7 +37,7 @@ Giữ options, xác nhận IAM capability và tạo Change Set. Dự kiến thê
 | Infrastructure | `TINDY_INFRA_PLANNER_ROLE_ARN` | Foundation InfraPlannerRoleArn hiện tại |
 | Infrastructure | `TINDY_LIFECYCLE_ROLE_ARN` | Foundation LifecycleRoleArn mới |
 
-Các kịch bản kiểm thử giao diện và luồng demo được thực hiện và ghi nhận chi tiết tại [Mục 5.6 — Kiểm tra ứng dụng và Demo giao diện](../../5.6-Verification-Demo/).
+Các kịch bản kiểm thử giao diện và video demo được ghi nhận chi tiết tại [Mục 5.6 — Kiểm tra ứng dụng và video demo](../../5.6-Application-Demo/).
 
 ## 3. Bằng chứng cấu hình Change Set CI/CD
 

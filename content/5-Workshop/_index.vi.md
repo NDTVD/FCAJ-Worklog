@@ -19,7 +19,7 @@ Workshop dùng sáu template `foundation.yaml`, `network.yaml`, `database.yaml`,
 | [5.3 Foundation và Network](5.3-Foundation-Network/) | Import Foundation và triển khai mạng. |
 | [5.4 Database và Integrations](5.4-Database-Integrations/) | Database Fresh và tích hợp quét PDF. |
 | [5.5 Runtime, seed và Edge](5.5-Runtime-Edge/) | Edge maintenance, Runtime, bootstrap, migration, seed và mở traffic. |
-| [5.6 Kiểm tra và demo ứng dụng](5.6-Verification-Demo/) | Kiểm tra giao diện React, tích hợp API, SignalR chat, CORS và Rate Limiting. |
+| [5.6 Kiểm tra ứng dụng và video demo](5.6-Application-Demo/) | Video demo, onboarding, dự án, matching, chat và AI PDF. |
 | [5.7 Dọn dẹp tài nguyên](5.7-Cleanup/) | Cleanup môi trường hiện tại cùng ảnh và trạng thái đã xác minh. |
 
 ## Lượt thực hành hiện tại

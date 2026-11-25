@@ -1,0 +1,9 @@
+{{- $src := .Get "src" -}}
+{{- $poster := .Get "poster" -}}
+<figure style="margin:1.5rem 0">
+  <video controls playsinline preload="metadata"{{ with $poster }} poster="{{ . | absURL }}"{{ end }} aria-label="{{ .Get "title" }}" style="display:block;width:100%;height:auto;border-radius:10px;background:#111827">
+    <source src="{{ $src | absURL }}" type="video/mp4">
+    <a href="{{ $src | absURL }}">{{ .Get "title" }}</a>
+  </video>
+  <figcaption>{{ .Get "title" }}</figcaption>
+</figure>

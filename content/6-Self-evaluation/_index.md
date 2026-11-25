@@ -10,7 +10,7 @@ pre: " <b> 6. </b> "
 
 Throughout the **First Cloud AI Journey (FCAJ)** program, I (**Cao Thành Nhân**) completed foundational cloud education through **AWS Cloud Practitioner Essentials**, while actively serving as the **Frontend Engineer (React / TypeScript / Tailwind CSS)** and contributing to **Backend optimizations (CORS, Message Rate Limiting)** on project **Tindy**.
 
-My core personal deliverables comprise my [13-week Worklog learning journal](/1-worklog/), the [Tindy Technical Proposal](/2-proposal/), and the [Workshop Section 5.6 UI & Integration Verification scenarios](/5-workshop/5.6-verification-demo/).
+My core personal deliverables comprise my [13-week Worklog learning journal](/1-worklog/), the [Tindy Technical Proposal](/2-proposal/), and the [Workshop Section 5.6 UI & Demo Video](/5-workshop/5.6-application-demo/).
 
 ---
 

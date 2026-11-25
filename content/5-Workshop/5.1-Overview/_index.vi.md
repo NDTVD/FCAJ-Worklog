@@ -47,6 +47,6 @@ Sơ đồ thể hiện cách bố trí các nhóm dịch vụ và thành phần 
 2. Import tài nguyên Foundation được giữ rồi cập nhật về template chính, tạo Network ở mục 5.3.
 3. Tạo Database Fresh và Integrations ở mục 5.4.
 4. Tạo Edge maintenance để lấy hostname, tạo Runtime với DesiredCount 0, chuẩn bị DB và seed, sau đó bật API và chuyển Edge live ở mục 5.5.
-5. Kiểm tra ứng dụng và demo giao diện ở [mục 5.6](../5.6-Verification-Demo/).
+5. Kiểm tra ứng dụng và video demo ở [mục 5.6](../5.6-Application-Demo/).
 
 Phần thực hành chọn cùng tài khoản và Region `us-east-1`, dùng hostname CloudFront mới và dữ liệu demo được seed lại. Các mục triển khai được bổ sung bằng ảnh và kết quả đã xác minh theo tiến độ thực tế.
