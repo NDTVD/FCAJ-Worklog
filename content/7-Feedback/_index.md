@@ -20,7 +20,7 @@ I am deeply appreciative of the guidance provided by the FCAJ mentors and progra
 As a student focusing on **Frontend & Fullstack Development**, FCAJ broadened my horizon beyond the browser window. I learned system-level thinking: caching static assets globally via CloudFront, shielding APIs behind internal ALBs, and consuming Generative AI models (Amazon Bedrock) securely and cost-effectively.
 
 #### Community Engagement
-Events such as **AWS Cloud and AI Day Hanoi Watch Party**, **Buildrathon Kickoff**, and **FCAJ Community Day** provided invaluable opportunities to network with industry leaders from STYL Solutions, CloudThinker, and NAB, while exploring cutting-edge topics like Lambda Web Functions and AI-DLC architectures.
+Although I did not attend offline events in person during the internship to focus primarily on project development milestones, I actively followed event recaps, presentation slides, and technical summaries shared from AWS Cloud Days and FCAJ Community Day to stay informed on emerging trends like Lambda Web Functions and AI-DLC architectures.
 
 ---
 

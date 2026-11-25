@@ -28,7 +28,7 @@ Báo cáo ghi nhận ba đầu ra trọng tâm của em là [nhật ký học t�
 | 8 | **Hợp tác nhóm** | Em phối hợp ăn ý với nhóm trong các đợt merge pull request giữa frontend và backend, đồng thời cùng nhóm diễn tập quy trình deploy CI/CD và kiểm thử kịch bản nghiệm thu. | ✅ |  |  |
 | 9 | **Ứng xử chuyên nghiệp** | Em tôn trọng quy tắc bảo mật dữ liệu, không hardcode secret hay API keys trên mã nguồn Frontend, và chuẩn bị kịch bản kiểm thử rõ ràng, khách quan. | ✅ |  |  |
 | 10 | **Tư duy giải quyết vấn đề** | Khi gặp lỗi nâng cấp giao thức WebSocket qua CloudFront, em sử dụng DevTools Network để phân tích header và cùng nhóm rà soát cấu hình CloudFront VPC Origin và ALB listener để khắc phục thành công mã 101. | ✅ |  |  |
-| 11 | **Đóng góp vào dự án và cộng đồng** | Đóng góp toàn bộ tầng giao diện tương tác của Tindy, luồng realtime chat SignalR, cấu hình CORS, cơ chế chống spam chat Rate Limiting, và tích cực tham gia các buổi Meetup, Community Day của FCAJ. | ✅ |  |  |
+| 11 | **Đóng góp vào dự án và cộng đồng** | Đóng góp toàn bộ tầng giao diện tương tác của Tindy, luồng realtime chat SignalR, cấu hình CORS, cơ chế chống spam chat Rate Limiting, và tập trung hoàn thành đúng tiến độ các mục tiêu phát triển dự án nhóm. | ✅ |  |  |
 | 12 | **Tổng thể** | Em đánh giá bản thân đã hoàn thành xuất sắc mục tiêu thực tập, vừa củng cố vững chắc kỹ năng Frontend/Fullstack, vừa mở rộng đáng kể hiểu biết thực tế về điện toán đám mây AWS. | ✅ |  |  |
 
 ---

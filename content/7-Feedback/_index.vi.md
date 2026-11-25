@@ -20,7 +20,7 @@ Em rất ấn tượng với sự tận tâm và chuyên môn sâu sắc của c
 Là một sinh viên theo đuổi chuyên môn **Frontend & Fullstack Development**, việc tham gia FCAJ đã mở rộng góc nhìn của em vượt ra khỏi phạm vi trình duyệt (browser). Em học được cách tư duy về hệ thống: từ việc phân phối mã tĩnh qua CDN CloudFront, cách bảo vệ API qua ALB nội bộ, đến việc tích hợp mô hình Generative AI (Amazon Bedrock) một cách an toàn và tối ưu chi phí.
 
 #### Hoạt động cộng đồng và kết nối
-Các sự kiện như **AWS Cloud and AI Day Hanoi Watch Party**, **Buildrathon Kickoff**, và **FCAJ Community Day** là những cơ hội quý báu giúp em mở rộng mạng lưới quan hệ, lắng nghe chia sẻ từ các chuyên gia đầu ngành tại STYL Solutions, CloudThinker, NAB và cập nhật các xu hướng mới nhất như Lambda Web Functions và kiến trúc AI-DLC.
+Dù không tham gia trực tiếp các sự kiện offline trong kỳ thực tập do tập trung thời gian phát triển dự án Tindy, em vẫn thường xuyên theo dõi các bài viết recap, tài liệu kỹ thuật và slide chia sẻ từ các buổi AWS Cloud Day, FCAJ Community Day do các bạn và ban điều phối tổng hợp để cập nhật các xu hướng công nghệ mới như Lambda Web Functions và kiến trúc AI-DLC.
 
 ---
 

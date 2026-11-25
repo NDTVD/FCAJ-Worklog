@@ -28,7 +28,7 @@ My core personal deliverables comprise my [13-week Worklog learning journal](/1-
 | 8 | **Teamwork & Collaboration** | Coordinated seamlessly across pull requests, participated in CI/CD rehearsal runs, and executed joint acceptance testing. | ✅ |  |  |
 | 9 | **Professional Conduct** | Upheld data security standards, avoided hardcoding secrets or API keys in client bundles, and structured objective test cases. | ✅ |  |  |
 | 10 | **Problem Solving** | When troubleshooting WebSocket protocol upgrade errors across CloudFront, analyzed DevTools Network headers to adjust VPC Origin and ALB configurations, achieving HTTP 101 success. | ✅ |  |  |
-| 11 | **Contributions to Project & Community** | Delivered Tindy's entire user interface layer, real-time chat integration, CORS policies, chat spam prevention, and engaged in FCAJ Meetups and Community Day. | ✅ |  |  |
+| 11 | **Contributions to Project & Community** | Delivered Tindy's entire user interface layer, real-time chat integration, CORS policies, chat spam prevention, and focused diligently on team milestone objectives. | ✅ |  |  |
 | 12 | **Overall Evaluation** | Successfully achieved internship goals by strengthening Frontend/Fullstack capabilities while developing practical cloud engineering expertise on AWS. | ✅ |  |  |
 
 ---
