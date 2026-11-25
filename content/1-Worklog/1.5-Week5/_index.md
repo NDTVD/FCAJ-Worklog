@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 5 Worklog"
 date: 2024-01-01
 weight: 5
@@ -28,3 +28,5 @@ pre: " <b> 1.5. </b> "
 
 - Client VPN connects remote users, Site-to-Site VPN connects networks, Direct Connect provides dedicated connectivity, and PrivateLink enables private access to services.
 - Route tables determine traffic paths in a VPC. For global users, Route 53 handles DNS, CloudFront delivers content, and Global Accelerator optimizes traffic paths.
+- **Application in Tindy:** Understood VPC segmentation with Private Database Subnets and configuring CloudFront VPC Origins to reach the internal ALB.
+

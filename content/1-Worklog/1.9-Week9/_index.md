@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 9 Worklog"
 date: 2024-01-01
 weight: 9
@@ -29,3 +29,5 @@ pre: " <b> 1.9. </b> "
 - IAM and least privilege limit what each identity or workload can do.
 - Security groups, WAF, Shield, TLS, and encryption at rest serve different protection layers.
 - A security finding is an input to verifying the affected resource, timeline, and impact.
+- **Application in Tindy:** Personally configured CORS in ASP.NET Core for secure CloudFront API access and implemented backend Message Rate Limiting against chat spam.
+

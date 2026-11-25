@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 8"
 date: 2024-01-01
 weight: 8
@@ -29,3 +29,5 @@ pre: " <b> 1.8. </b> "
 - Phân biệt dịch vụ AI dựng sẵn, nền tảng xây dựng mô hình và hạ tầng tự quản lý.
 - Đầu ra Generative AI cần được kiểm tra theo tiêu chí của ứng dụng trước khi đưa vào hồ sơ hoặc quy trình nghiệp vụ.
 - Một data lake có thể phục vụ phân tích và ML khi dữ liệu được xử lý, lập danh mục và kiểm tra chất lượng.
+- **Áp dụng vào Tindy:** Tích hợp Amazon Bedrock để trích xuất kỹ năng từ CV; thiết kế giao diện AI Draft Review cho phép ứng viên xem lại và chỉnh sửa trước khi lưu.
+

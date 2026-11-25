@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 10"
 date: 2024-01-01
 weight: 10
@@ -29,3 +29,5 @@ pre: " <b> 1.10. </b> "
 - CloudWatch giúp nhận biết tình trạng vận hành, còn CloudTrail cho phép lần lại thao tác API.
 - AWS Artifact cung cấp tài liệu tuân thủ của AWS. AWS Config ghi nhận và đánh giá cấu hình tài nguyên theo quy tắc đã chọn.
 - AWS Organizations và Control Tower hỗ trợ đặt quy tắc chung cho nhiều tài khoản. AWS Health và Trusted Advisor cung cấp đầu vào cho các công việc vận hành.
+- **Áp dụng vào Tindy:** Kết hợp Chrome DevTools Network với CloudWatch Logs để giám sát mã phản hồi HTTP 101 WebSocket và phát hiện các request bị chặn do Rate Limit (429).
+

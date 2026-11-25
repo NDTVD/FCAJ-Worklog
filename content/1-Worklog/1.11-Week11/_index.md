@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 11 Worklog"
 date: 2024-01-01
 weight: 11
@@ -29,3 +29,5 @@ pre: " <b> 1.11. </b> "
 - Application cost depends on runtime and resources retained between runs.
 - Billing Dashboard, Budgets, and Cost Explorer support reviewing charges, receiving alerts, and analyzing trends.
 - An optimization proposal needs before-and-after measurements, operating expectations, and a data preservation plan.
+- **Application in Tindy:** Practiced cost modeling with AWS Pricing Calculator (~.32/mo) and adopted scheduled demo teardowns to keep actual costs under .
+

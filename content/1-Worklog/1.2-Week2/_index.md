@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 2 Worklog"
 date: 2024-01-01
 weight: 2
@@ -28,3 +28,5 @@ pre: " <b> 1.2. </b> "
 
 - Instance selection depends on workload requirements. The AMI specifies the initial software, and user data can run configuration steps at launch.
 - EC2 Auto Scaling adjusts instance count, Elastic Load Balancing distributes requests, and SQS and SNS support asynchronous communication.
+- **Application in Tindy:** Learned how the Application Load Balancer (ALB) distributes traffic and maintains persistent WebSocket connections for two-way SignalR chat.
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 11"
 date: 2024-01-01
 weight: 11
@@ -29,3 +29,5 @@ pre: " <b> 1.11. </b> "
 - Chi phí ứng dụng phụ thuộc cả thời lượng chạy và tài nguyên lưu lại giữa các lần sử dụng.
 - Billing Dashboard, Budgets và Cost Explorer lần lượt hỗ trợ xem chi phí, nhận cảnh báo và phân tích xu hướng.
 - Một đề xuất tối ưu cần có số liệu trước và sau, kỳ vọng vận hành và phương án bảo toàn dữ liệu.
+- **Áp dụng vào Tindy:** Thực hành ước tính chi phí qua AWS Pricing Calculator (~.32/tháng) và áp dụng chiến lược chạy demo theo lịch để giữ chi phí thực tế dưới .
+

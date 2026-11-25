@@ -6,7 +6,14 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-This worklog covers the planned study period from **September 14 to December 14, 2026**. Each week corresponds to one **AWS Cloud Practitioner Essentials** module on AWS Skill Builder and includes objectives, daily lessons, and learning outcomes. Week 13 combines Module 13 with the internship wrap-up on **December 14, 2026**.
+# 13-Week Internship Worklog
+
+**Student Author:** Cao Thành Nhân  
+**Focus:** Frontend Engineer (React / TypeScript / Tailwind CSS) & Backend Optimization (CORS, Rate Limiting)  
+
+This worklog covers the study period from **September 14 to December 14, 2026** through the **AWS Cloud Practitioner Essentials** curriculum on AWS Skill Builder. It bridges foundational cloud theory with practical engineering on project **Tindy**—spanning client UI design, static web delivery via S3/CloudFront, Kestrel API integration, real-time SignalR WebSockets, and security optimizations.
+
+Week 13 combines Module 13 with the AWS Well-Architected Framework assessment and final internship evaluation on **December 14, 2026**.
 
 - [Week 1 · Module 1 — AWS Cloud and infrastructure fundamentals](1.1-week1/)
 - [Week 2 · Module 2 — EC2, traffic distribution, and messaging](1.2-week2/)

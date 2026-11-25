@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 2"
 date: 2024-01-01
 weight: 2
@@ -28,3 +28,5 @@ pre: " <b> 1.2. </b> "
 
 - Loại instance phụ thuộc vào nhu cầu của workload. AMI xác định phần mềm ban đầu, còn user data có thể chạy các bước cấu hình khi khởi tạo.
 - EC2 Auto Scaling điều chỉnh số lượng instance, Elastic Load Balancing phân phối yêu cầu, còn SQS và SNS hỗ trợ giao tiếp bất đồng bộ.
+- **Áp dụng vào Tindy:** Hiểu cách Application Load Balancer (ALB) điều phối lưu lượng và duy trì kết nối WebSocket liên tục cho khung chat SignalR hai chiều.
+

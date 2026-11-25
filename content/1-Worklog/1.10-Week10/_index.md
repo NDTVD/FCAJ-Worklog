@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 10 Worklog"
 date: 2024-01-01
 weight: 10
@@ -29,3 +29,5 @@ pre: " <b> 1.10. </b> "
 - CloudWatch shows operational health, while CloudTrail traces API activity.
 - AWS Artifact provides AWS compliance documentation. AWS Config records and evaluates resource configuration against selected rules.
 - AWS Organizations and Control Tower support common controls across accounts. AWS Health and Trusted Advisor provide inputs for operational follow-up.
+- **Application in Tindy:** Combined Chrome DevTools Network inspection with CloudWatch Logs to verify WebSocket 101 status codes and detect 429 throttled requests.
+

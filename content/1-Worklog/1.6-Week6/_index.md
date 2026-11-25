@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 6 Worklog"
 date: 2024-01-01
 weight: 6
@@ -28,3 +28,5 @@ pre: " <b> 1.6. </b> "
 
 - Instance store suits temporary data, EBS persists data according to the volume lifecycle, and snapshots provide recovery points.
 - Choose storage classes based on data access requirements. S3 Lifecycle automates object transitions and expiration.
+- **Application in Tindy:** Configured Amazon S3 for static frontend hosting (via OAC) and private S3 Media storage for uploaded candidate resumes.
+

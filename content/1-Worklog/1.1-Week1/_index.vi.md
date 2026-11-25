@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 1"
 date: 2024-01-01
 weight: 1
@@ -28,3 +28,5 @@ pre: " <b> 1.1. </b> "
 
 - Trả phí theo mức sử dụng và điều chỉnh tài nguyên theo nhu cầu giúp giảm việc phải dự đoán công suất trước.
 - Multi-AZ giúp ứng dụng chịu được sự cố ở một AZ. Trách nhiệm bảo mật của khách hàng thay đổi theo dịch vụ sử dụng.
+- **Áp dụng vào Tindy:** Phân tích luồng Client–Server giữa React Frontend (Vite) và API ASP.NET Core; tìm hiểu cơ chế trả phí theo nhu cầu thực tế để kiểm soát chi phí cho các tài nguyên demo.
+

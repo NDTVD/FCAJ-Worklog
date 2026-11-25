@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 13 Worklog"
 date: 2024-01-01
 weight: 13
@@ -30,3 +30,5 @@ pre: " <b> 1.13. </b> "
 - The six pillars provide architecture review criteria. The Well-Architected Tool helps record answers, risks, and improvements.
 - The roles of specialized services can be explained through three examples: a serverless backend, a contact form, and a contact center.
 - The wrap-up relates Tindy's demo context to security, reliability, operations, and cost decisions.
+- **Application in Tindy:** Assessed Tindy against the 6 Well-Architected pillars; finalized end-to-end UI verification and Workshop Section 5.6 demo scenarios.
+

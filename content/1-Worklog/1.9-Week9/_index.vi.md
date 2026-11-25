@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 9"
 date: 2024-01-01
 weight: 9
@@ -29,3 +29,5 @@ pre: " <b> 1.9. </b> "
 - IAM và quyền tối thiểu giới hạn những gì từng danh tính hoặc workload được làm.
 - Security group, WAF, Shield, TLS và mã hóa khi lưu trữ phục vụ các lớp bảo vệ khác nhau.
 - Một phát hiện bảo mật là đầu vào cho quá trình xác minh tài nguyên, dấu thời gian và ảnh hưởng.
+- **Áp dụng vào Tindy:** Trực tiếp cấu hình chính sách CORS trong ASP.NET Core để FE gọi API qua CloudFront an toàn, đồng thời triển khai Message Rate Limiting chống spam chat.
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 3"
 date: 2024-01-01
 weight: 3
@@ -28,3 +28,5 @@ pre: " <b> 1.3. </b> "
 
 - Lambda phù hợp với tác vụ theo sự kiện. Thời lượng xử lý và quyền thực thi là hai yếu tố cần xem khi chọn Lambda.
 - ECR lưu container image, ECS và EKS điều phối container, còn Fargate cung cấp năng lực chạy container.
+- **Áp dụng vào Tindy:** Nắm rõ cách đóng gói backend ASP.NET Core thành Docker image lưu trên ECR và vận hành container không máy chủ qua ECS Fargate.
+

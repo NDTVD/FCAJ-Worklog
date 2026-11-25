@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 13"
 date: 2024-01-01
 weight: 13
@@ -30,3 +30,5 @@ pre: " <b> 1.13. </b> "
 - Sáu trụ cột cung cấp tiêu chí đánh giá kiến trúc. Well-Architected Tool hỗ trợ ghi nhận câu trả lời, rủi ro và việc cải tiến.
 - Có thể giải thích vai trò của dịch vụ chuyên dụng qua ba luồng mẫu: backend serverless, biểu mẫu liên hệ và contact center.
 - Phần tổng kết liên hệ bối cảnh demo Tindy với các quyết định về bảo mật, độ tin cậy, vận hành và chi phí.
+- **Áp dụng vào Tindy:** Đánh giá kiến trúc Tindy theo 6 trụ cột Well-Architected; hoàn thiện kịch bản kiểm thử giao diện và nghiệm thu Workshop 5.6.
+

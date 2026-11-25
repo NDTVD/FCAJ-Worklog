@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 6"
 date: 2024-01-01
 weight: 6
@@ -28,3 +28,5 @@ pre: " <b> 1.6. </b> "
 
 - Instance Store phù hợp với dữ liệu tạm, EBS duy trì dữ liệu theo vòng đời của volume và snapshot cung cấp điểm khôi phục.
 - Chọn storage class theo cách sử dụng dữ liệu. S3 Lifecycle tự động chuyển lớp lưu trữ hoặc đặt thời điểm hết hạn cho object.
+- **Áp dụng vào Tindy:** Cấu hình Amazon S3 lưu trữ bản build tĩnh của Frontend (qua OAC) và S3 Media Bucket lưu trữ CV PDF người dùng tải lên.
+

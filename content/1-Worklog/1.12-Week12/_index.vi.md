@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 12"
 date: 2024-01-01
 weight: 12
@@ -29,3 +29,5 @@ pre: " <b> 1.12. </b> "
 - Kiểm kê phụ thuộc và các góc nhìn AWS CAF giúp xác định công việc cần hoàn thành trước cutover.
 - 7R phân biệt mức thay đổi của ứng dụng. Với dữ liệu, chuyển đổi schema, tải ban đầu và áp dụng thay đổi là các việc cần lập kế hoạch riêng.
 - Ước tính thời gian truyền cần xét thông lượng thực tế, thời gian gián đoạn và cách đối soát dữ liệu sau chuyển.
+- **Áp dụng vào Tindy:** Thiết lập quy trình CI/CD với GitHub Actions OIDC để tự động build React (npm run build), tải lên S3 và tạo invalidation CloudFront.
+

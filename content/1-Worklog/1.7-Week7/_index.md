@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 7 Worklog"
 date: 2024-01-01
 weight: 7
@@ -29,3 +29,5 @@ pre: " <b> 1.7. </b> "
 - Query patterns, relationships, and transaction requirements guide service and key design.
 - The course demo illustrates the difference between RDS JOIN operations and DynamoDB Query and Scan.
 - Caching reduces direct database reads. Backup policies and recovery checks address data protection.
+- **Application in Tindy:** Studied the relational schema in RDS PostgreSQL 17 for Profiles, Projects, Match criteria, and chat history.
+

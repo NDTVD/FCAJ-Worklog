@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 12 Worklog"
 date: 2024-01-01
 weight: 12
@@ -29,3 +29,5 @@ pre: " <b> 1.12. </b> "
 - Dependency inventory and the AWS CAF perspectives help define what needs to be ready before cutover.
 - The 7 Rs distinguish how much an application changes. Schema conversion, initial load, and change replication need separate planning.
 - Transfer estimates need to account for effective throughput, downtime, and post-migration reconciliation.
+- **Application in Tindy:** Established GitHub Actions OIDC CI/CD to automate React static bundling (npm run build), S3 upload, and CloudFront cache invalidation.
+

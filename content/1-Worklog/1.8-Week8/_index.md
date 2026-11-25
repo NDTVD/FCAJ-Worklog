@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 8 Worklog"
 date: 2024-01-01
 weight: 8
@@ -29,3 +29,5 @@ pre: " <b> 1.8. </b> "
 - Prebuilt AI services, managed model development, and self-managed infrastructure serve different needs.
 - Generative AI output needs application-specific validation before it enters profiles or business workflows.
 - A data lake can serve analytics and ML when data is processed, cataloged, and checked for quality.
+- **Application in Tindy:** Integrated Amazon Bedrock for CV skill parsing; engineered the AI Draft Review UI allowing candidates to review and edit suggestions.
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 4"
 date: 2024-01-01
 weight: 4
@@ -28,3 +28,5 @@ pre: " <b> 1.4. </b> "
 
 - Lựa chọn Region cần cân bằng độ trễ với yêu cầu về vị trí lưu trữ dữ liệu, tính năng dịch vụ và chi phí.
 - CloudFormation dùng template để mô tả hạ tầng và stack để quản lý tập tài nguyên được triển khai từ template.
+- **Áp dụng vào Tindy:** Lựa chọn Region us-east-1 cho toàn bộ hệ thống; nghiên cứu cách CloudFront phân phối static bundle React tới người dùng với độ trễ thấp.
+

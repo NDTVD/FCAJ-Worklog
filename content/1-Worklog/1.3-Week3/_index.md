@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 3 Worklog"
 date: 2024-01-01
 weight: 3
@@ -28,3 +28,5 @@ pre: " <b> 1.3. </b> "
 
 - Lambda suits event-driven workloads. Task duration and execution permissions are two factors to check when choosing Lambda.
 - ECR stores container images, ECS and EKS orchestrate containers, and Fargate provides compute capacity to run them.
+- **Application in Tindy:** Grasped packaging the ASP.NET Core backend into ECR Docker images and running serverless containers via ECS Fargate.
+

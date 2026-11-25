@@ -6,7 +6,14 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Nhật ký ghi lại kế hoạch học tập từ **14/09/2026 đến 14/12/2026**. Mỗi tuần tương ứng với một module trong khóa **AWS Cloud Practitioner Essentials** trên AWS Skill Builder, với mục tiêu, bài học theo ngày và kiến thức rút ra. Tuần 13 kết hợp Module 13 với buổi tổng kết thực tập vào ngày **14/12/2026**.
+# Nhật ký công việc (Worklog 13 tuần)
+
+**Sinh viên thực hiện:** Cao Thành Nhân  
+**Chuyên môn:** Kỹ sư Frontend (React / TypeScript / Tailwind CSS) & Tối ưu Backend (CORS, Rate Limiting)  
+
+Nhật ký ghi lại quá trình học tập lý thuyết điện toán đám mây từ **14/09/2026 đến 14/12/2026** thông qua khóa học **AWS Cloud Practitioner Essentials** trên AWS Skill Builder, kết hợp với việc phân tích và ứng dụng thực tiễn vào dự án **Tindy** — từ khâu thiết kế giao diện, phân phối web tĩnh qua S3/CloudFront đến tích hợp API Kestrel, WebSocket SignalR và tối ưu bảo mật.
+
+Tuần 13 kết hợp Module 13 với đánh giá kiến trúc theo AWS Well-Architected Framework và tổng kết kỳ thực tập vào ngày **14/12/2026**.
 
 - [Tuần 1 · Module 1 — Nền tảng AWS Cloud và hạ tầng](1.1-week1/)
 - [Tuần 2 · Module 2 — EC2, điều phối lưu lượng và nhắn tin](1.2-week2/)

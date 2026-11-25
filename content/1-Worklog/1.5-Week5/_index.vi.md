@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 5"
 date: 2024-01-01
 weight: 5
@@ -28,3 +28,5 @@ pre: " <b> 1.5. </b> "
 
 - Client VPN phục vụ người dùng từ xa, Site-to-Site VPN kết nối các mạng, Direct Connect cung cấp kết nối chuyên dụng và PrivateLink hỗ trợ truy cập riêng tới dịch vụ.
 - Route table quyết định đường đi của lưu lượng trong VPC. Ở lớp phục vụ người dùng toàn cầu, Route 53 xử lý DNS, CloudFront phân phối nội dung và Global Accelerator tối ưu đường đi của lưu lượng.
+- **Áp dụng vào Tindy:** Hiểu cách phân tách mạng VPC với Private Subnet cho Database và cấu hình CloudFront VPC Origin kết nối an toàn tới Internal ALB.
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 1 Worklog"
 date: 2024-01-01
 weight: 1
@@ -28,3 +28,5 @@ pre: " <b> 1.1. </b> "
 
 - Usage-based pricing and adjustable capacity reduce the need to estimate demand in advance.
 - Multi-AZ designs help applications withstand an AZ failure. Customer security responsibilities vary by service.
+- **Application in Tindy:** Analyzed the Client–Server interaction between the React frontend (Vite) and ASP.NET Core API; studied on-demand pricing models to manage costs for demo resources.
+

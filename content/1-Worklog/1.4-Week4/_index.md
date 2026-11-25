@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 4 Worklog"
 date: 2024-01-01
 weight: 4
@@ -28,3 +28,5 @@ pre: " <b> 1.4. </b> "
 
 - Region selection balances latency with data residency requirements, service features, and cost.
 - CloudFormation templates describe infrastructure, and stacks manage the resources deployed from those templates.
+- **Application in Tindy:** Selected us-east-1 for unified deployment; studied how CloudFront distributes static React bundles with minimal latency.
+

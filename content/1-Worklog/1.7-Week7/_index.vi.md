@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nhật ký Công việc Tuần 7"
 date: 2024-01-01
 weight: 7
@@ -29,3 +29,5 @@ pre: " <b> 1.7. </b> "
 - Mẫu truy vấn, quan hệ giữa bản ghi và yêu cầu giao dịch là cơ sở chọn dịch vụ và khóa dữ liệu.
 - Có thể phân biệt các bước JOIN trong RDS với Query và Scan trong DynamoDB qua demo của khóa học.
 - Cache giảm lượt đọc trực tiếp vào cơ sở dữ liệu. Chính sách sao lưu và kiểm tra khôi phục giải quyết nhu cầu bảo toàn dữ liệu.
+- **Áp dụng vào Tindy:** Nghiên cứu thiết kế cơ sở dữ liệu quan hệ RDS PostgreSQL 17 lưu trữ Profile, Project, Match data và lịch sử tin nhắn trò chuyện.
+
