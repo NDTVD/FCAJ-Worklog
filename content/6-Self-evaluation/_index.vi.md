@@ -6,27 +6,35 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong chương trình **First Cloud AI Journey (FCAJ)**, em học AWS theo từng chủ đề, liên hệ kiến thức với dự án **Tindy** và tham gia các hoạt động cộng đồng. Báo cáo ghi nhận ba đầu ra chính là nhật ký học [AWS Cloud Practitioner Essentials](/vi/1-worklog/), [bản đề xuất và kiến trúc Tindy](/vi/2-proposal/), và phiên [Education tại FCAJ Community Day](/vi/4-eventparticipated/4.5-event5/) ngày 31/10/2026.
+# Bản tự đánh giá kết quả thực tập
+
+Trong chương trình **First Cloud AI Journey (FCAJ)**, em (**Cao Thành Nhân**) đã hoàn thành việc học tập các kiến thức nền tảng điện toán đám mây qua khóa **AWS Cloud Practitioner Essentials**, đồng thời trực tiếp đảm nhận vai trò **Kỹ sư Frontend (React / TypeScript / Tailwind CSS)** và hỗ trợ tối ưu **Backend (CORS, Message Rate Limiting)** cho dự án **Tindy**. 
+
+Báo cáo ghi nhận ba đầu ra trọng tâm của em là [nhật ký học tập Worklog 13 tuần](/vi/1-worklog/), [bản đề xuất kỹ thuật Tindy](/vi/2-proposal/), và [kịch bản kiểm thử giao diện & tích hợp Workshop 5.6](/vi/5-workshop/5.6-verification-demo/).
+
+---
 
 ### Đánh giá theo tiêu chí
 
-| STT | Tiêu chí | Căn cứ tự đánh giá | Tốt | Khá | Trung bình |
-| --- | --- | --- | --- | --- | --- |
-| 1 | **Kiến thức và kỹ năng chuyên môn** | Em liên hệ kiến thức AWS với Tindy qua CloudFormation, ECS, RDS và luồng xử lý PDF. Phần hạ tầng có cấu hình theo dõi tình trạng ALB và lỗi HTTP 5xx. | ✅ |  |  |
-| 2 | **Khả năng học hỏi** | Em ghi lại nội dung AWS Cloud Practitioner Essentials theo từng tuần. Khi gặp một dịch vụ mới, em đối chiếu chức năng của nó với một tình huống trong dự án, như dùng CloudWatch để tìm bước gây lỗi khi API trả 5xx. | ✅ |  |  |
-| 3 | **Tính chủ động** | Em chủ động tìm thêm bài kỹ thuật về Kiro, AgentCore và AWS Emulator để đọc và tổng hợp. Em cũng chuẩn bị phần chia sẻ về cách bắt đầu học AWS cho FCAJ Community Day. | ✅ |  |  |
-| 4 | **Tinh thần trách nhiệm** | Khi chuẩn bị phát hành backend, em bổ sung yêu cầu có minh chứng sao lưu và kiểm tra migration cho thay đổi schema. Em cũng bổ sung workflow để nhóm diễn tập rollback. | ✅ |  |  |
-| 5 | **Kỷ luật** | Em chia nội dung học theo tuần và theo dõi các mốc dự án bằng sprint. Em cần giữ nhịp cập nhật đều hơn khi việc học, tích hợp và viết báo cáo diễn ra song song. |  | ✅ |  |
-| 6 | **Tinh thần cầu tiến** | Em có thói quen ghi lại điều cần tìm hiểu thêm. Em muốn xin nhận xét sớm hơn cho từng đầu ra và ghi rõ phần đã sửa sau mỗi lượt review. |  | ✅ |  |
-| 7 | **Giao tiếp** | Em trình bày chủ đề New to AWS? Where Should You Start? trong phiên Education của FCAJ Community Day. Em tổ chức bài nói theo nhu cầu của người mới và giải thích vai trò của ba nguồn học. | ✅ |  |  |
-| 8 | **Hợp tác nhóm** | Tindy có các pull request hợp nhất thay đổi ở backend và frontend, cùng các thay đổi hạ tầng liên quan. Em muốn trao đổi sớm hơn khi một thay đổi của mình ảnh hưởng đến API, dữ liệu hoặc thứ tự triển khai của phần khác. |  | ✅ |  |
-| 9 | **Ứng xử chuyên nghiệp** | Em ghi nguồn cho nội dung kỹ thuật và dùng tài liệu mẫu khi mô tả kịch bản demo. Em có thể cải thiện cách bàn giao bằng một bản tóm tắt ngắn về quyết định, phần còn mở và người phụ trách. |  | ✅ |  |
-| 10 | **Tư duy giải quyết vấn đề** | Với lỗi API, em có thể lần theo tình trạng ALB, sự kiện ECS và log ứng dụng. Em cần thực hành thêm các tình huống có chủ đích để so sánh dấu hiệu, giả thuyết và cách khôi phục. |  | ✅ |  |
-| 11 | **Đóng góp vào dự án và cộng đồng** | Các đóng góp ghi nhận được gồm workflow phát hành backend ECS, giám sát ALB, cảnh báo hàng đợi lỗi cho luồng quét PDF và phiên Education tại FCAJ Community Day. | ✅ |  |  |
-| 12 | **Tổng thể** | Em đánh giá tốt khả năng tự học, vận dụng vào Tindy và chia sẻ kiến thức. Hai ưu tiên tiếp theo của em là kiểm chứng vận hành và phối hợp sớm hơn giữa các phần của dự án. | ✅ |  |  |
+| STT | Tiêu chí | Căn cứ tự đánh giá của cá nhân | Tốt | Khá | Trung bình |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| 1 | **Kiến thức và kỹ năng chuyên môn** | Em làm chủ kiến trúc Frontend React/TypeScript/Tailwind CSS, tích hợp API RESTful và SignalR WebSocket real-time chat. Em áp dụng kiến thức AWS để tối ưu phân phối client tĩnh qua S3 + CloudFront (OAC) và cấu hình chính sách CORS, cơ chế Rate Limiting bảo vệ backend. | ✅ |  |  |
+| 2 | **Khả năng học hỏi** | Em hoàn thành đều đặn nhật ký học AWS Cloud Practitioner Essentials 13 tuần. Khi tiếp cận công nghệ mới như Amazon Bedrock hay SignalR, em chủ động tìm hiểu tài liệu chính thức và áp dụng vào giao diện duyệt bản nháp hồ sơ AI. | ✅ |  |  |
+| 3 | **Tính chủ động** | Em chủ động thiết kế UI/UX theo hướng hiện đại, xây dựng hệ thống component tái sử dụng, đồng thời phát hiện sớm nguy cơ spam tin nhắn chat để đề xuất triển khai middleware Rate Limiting ở Backend. | ✅ |  |  |
+| 4 | **Tinh thần trách nhiệm** | Em cam kết hoàn thành đúng tiến độ các màn hình theo từng sprint (Auth, Profile, Project Discovery, Chat). Khi gặp lỗi trình duyệt chặn gọi API trên domain CloudFront, em kiên trì debug đến khi giải quyết triệt để vấn đề CORS. | ✅ |  |  |
+| 5 | **Kỷ luật** | Em tuân thủ thời gian học tập, họp nhóm định kỳ và quy chuẩn commit Git. Em cần cải thiện việc ghi chép nhật ký thường xuyên hơn trong những tuần cao điểm tích hợp tính năng. |  | ✅ |  |
+| 6 | **Tinh thần cầu tiến** | Em luôn lắng nghe phản hồi từ mentor và đồng đội để tinh chỉnh trải nghiệm người dùng, sửa đổi DTO và tối ưu hóa luồng tương tác Interested/Accept. | ✅ |  |  |
+| 7 | **Giao tiếp** | Em chủ động trao đổi với thành viên phụ trách Backend và Hạ tầng để thống nhất contract API, format dữ liệu JSON và cơ chế authentication token. | ✅ |  |  |
+| 8 | **Hợp tác nhóm** | Em phối hợp ăn ý với nhóm trong các đợt merge pull request giữa frontend và backend, đồng thời cùng nhóm diễn tập quy trình deploy CI/CD và kiểm thử kịch bản nghiệm thu. | ✅ |  |  |
+| 9 | **Ứng xử chuyên nghiệp** | Em tôn trọng quy tắc bảo mật dữ liệu, không hardcode secret hay API keys trên mã nguồn Frontend, và chuẩn bị kịch bản kiểm thử rõ ràng, khách quan. | ✅ |  |  |
+| 10 | **Tư duy giải quyết vấn đề** | Khi gặp lỗi nâng cấp giao thức WebSocket qua CloudFront, em sử dụng DevTools Network để phân tích header và cùng nhóm rà soát cấu hình CloudFront VPC Origin và ALB listener để khắc phục thành công mã 101. | ✅ |  |  |
+| 11 | **Đóng góp vào dự án và cộng đồng** | Đóng góp toàn bộ tầng giao diện tương tác của Tindy, luồng realtime chat SignalR, cấu hình CORS, cơ chế chống spam chat Rate Limiting, và tích cực tham gia các buổi Meetup, Community Day của FCAJ. | ✅ |  |  |
+| 12 | **Tổng thể** | Em đánh giá bản thân đã hoàn thành xuất sắc mục tiêu thực tập, vừa củng cố vững chắc kỹ năng Frontend/Fullstack, vừa mở rộng đáng kể hiểu biết thực tế về điện toán đám mây AWS. | ✅ |  |  |
 
-### Cần cải thiện
+---
 
-1. **Lưu minh chứng ở từng mốc phát hành.** Với một bản triển khai hoặc diễn tập rollback của Tindy, em muốn ghi cùng nhau phiên bản, môi trường, bước kiểm tra, kết quả mong đợi và kết quả quan sát. Ví dụ, với API, em có thể lưu kết quả readiness sau khi phát hành và sau khi quay về phiên bản trước.
-2. **Thực hành chẩn đoán và khôi phục có chủ đích.** Trên môi trường thử nghiệm, em có thể chọn một tình huống như target ALB không khỏe hoặc worker nhận lại thông điệp quét PDF. Mỗi lần thử cần có giả thuyết, dấu hiệu để kiểm tra và cách xác minh hệ thống đã ổn định.
-3. **Chia sẻ tiến độ sớm và ngắn hơn.** Em muốn tóm tắt phần đã xong, ảnh hưởng tới phần việc khác và quyết định cần người hỗ trợ ngay khi phát hiện vướng mắc. Cuối sprint, em có thể ghi lại góp ý nào đã được xử lý và việc nào cần mang sang sprint sau.
+### Điểm cần cải thiện cho tương lai
+
+1. **Đào sâu hơn vào Infrastructure as Code (IaC):** Em muốn tự tay viết và tùy biến các template CloudFormation/Terraform một cách độc lập thay vì chỉ tập trung vào mã nguồn ứng dụng và cấu hình phân phối tĩnh.
+2. **Nâng cao kỹ năng kiểm thử tự động (E2E Testing):** Trong dự án tới, em dự định áp dụng Cypress hoặc Playwright để tự động hóa toàn bộ các kịch bản kiểm thử giao diện trong pipeline CI/CD.
+3. **Quản lý state client phức tạp hơn:** Tiếp tục nghiên cứu các mô hình quản lý state phân tán và caching dữ liệu offline cho ứng dụng Progressive Web App (PWA).

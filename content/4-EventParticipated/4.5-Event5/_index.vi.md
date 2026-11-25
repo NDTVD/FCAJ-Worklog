@@ -12,8 +12,8 @@ pre: " <b> 4.5. </b> "
 - **Thời gian** · 09:00–12:00 (UTC+7)
 - **Địa điểm** · Tầng 26, Bitexco Financial Tower, 02 Hải Triều, TP.HCM
 - **Đơn vị tổ chức** · AWS First Cloud AI Journey (FCAJ)
-- **Vai trò của em** · **Diễn giả phiên Education, 09:30–09:55**
-- **Chủ đề em trình bày** · *New to AWS? Where Should You Start?*
+- **Vai trò của em** · Người tham dự trực tiếp
+- **Mối quan tâm chính** · Theo dõi các phiên chia sẻ về lộ trình học AWS, Lambda Web Functions và kiến trúc bất đồng bộ với Amazon SQS
 
 <figure>
   <img src="/images/4-EventParticipated/event-5/community-day-poster.png" alt="Poster FCAJ Community Day ngày 31/10/2026 với sáu diễn giả" decoding="async">
@@ -22,7 +22,7 @@ pre: " <b> 4.5. </b> "
 
 ### Mục đích của sự kiện
 
-FCAJ Community Day kết nối người làm kỹ thuật và sinh viên qua sáu phiên chia sẻ. Chương trình buổi sáng gồm kinh nghiệm xây dựng quy trình phát triển phần mềm, cách học AWS, kiến trúc web serverless, xử lý bất đồng bộ với Amazon SQS, trải nghiệm thực tập và đóng góp mã nguồn mở. Em tham gia với vai trò diễn giả, chia sẻ cách chọn tài nguyên học tập theo mục tiêu của người mới bắt đầu. [Chương trình FCAJ Community Day](https://luma.com/1izeyind)
+FCAJ Community Day kết nối người làm kỹ thuật và sinh viên qua sáu phiên chia sẻ. Chương trình buổi sáng gồm kinh nghiệm xây dựng quy trình phát triển phần mềm, cách học AWS, kiến trúc web serverless, xử lý bất đồng bộ với Amazon SQS, trải nghiệm thực tập và đóng góp mã nguồn mở. Em tham gia với vai trò người tham dự, lắng nghe các diễn giả chia sẻ cách chọn tài nguyên học tập và áp dụng AWS vào các dự án thực tế. [Chương trình FCAJ Community Day](https://luma.com/1izeyind)
 
 ### Diễn giả
 
@@ -40,7 +40,7 @@ FCAJ Community Day kết nối người làm kỹ thuật và sinh viên qua sá
 | Giờ (UTC+7) | Phiên | Nội dung |
 | --- | --- | --- |
 | 09:00–09:25 | Lessons Learned from Building Software Factories | Kinh nghiệm tổ chức quy trình phát triển phần mềm ở quy mô lớn và những bài học từ thực tế. |
-| **09:30–09:55** | **Education · New to AWS? Where Should You Start?** | Phần em trình bày về cách bắt đầu học AWS và chọn tài nguyên phù hợp với từng mục tiêu. |
+| **09:30–09:55** | **Education · New to AWS? Where Should You Start?** | Phần chia sẻ của bạn Trần Minh Tuấn về cách bắt đầu học AWS và chọn tài nguyên phù hợp với từng mục tiêu. |
 | 10:00–10:25 | AWS Lambda Web Functions: Rethinking Serverless Web Architecture | HTTP native, xử lý nhiều request đồng thời và cách đánh giá hiệu năng, chi phí. |
 | 10:30–11:00 | Amazon SQS: Building Asynchronous Systems | Tách bên gửi và bên xử lý bằng hàng đợi, so sánh Standard với FIFO. |
 | 11:00–11:25 | My 3-Month AWS Internship Journey | Kinh nghiệm thực tập tại FCAJ qua dự án trò chơi thẻ bài serverless. |
@@ -57,9 +57,9 @@ FCAJ Community Day kết nối người làm kỹ thuật và sinh viên qua sá
   <figcaption>Phiên mở đầu về kinh nghiệm xây dựng software factories tại CloudThinker.</figcaption>
 </figure>
 
-#### Phần em trình bày · New to AWS? Where Should You Start?
+#### Phiên Education · New to AWS? Where Should You Start?
 
-Trong phiên **Education**, em mở đầu bằng câu hỏi người mới nên bắt đầu từ đâu khi có nhiều nguồn học AWS. Em giới thiệu ba nền tảng theo mục đích sử dụng của từng nguồn. Cách trình bày này giúp người nghe chọn việc cần làm tiếp theo, chẳng hạn học khái niệm, thực hành một workshop hoặc tìm hiểu cách cộng đồng áp dụng dịch vụ đó.
+Trong phiên **Education**, diễn giả Trần Minh Tuấn mở đầu bằng câu hỏi người mới nên bắt đầu từ đâu khi có nhiều nguồn học AWS, đồng thời giới thiệu ba nền tảng theo mục đích sử dụng của từng nguồn. Em thấy cách trình bày này rất hữu ích, giúp người nghe như em định hướng rõ ràng việc cần làm tiếp theo, chẳng hạn học khái niệm nền tảng, thực hành một workshop cụ thể hoặc tìm hiểu cách cộng đồng áp dụng dịch vụ đó vào dự án.
 
 | Nguồn học | Nội dung em giới thiệu |
 | --- | --- |

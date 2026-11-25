@@ -42,6 +42,6 @@ The program covered production agentic AI, data products, modernization with AWS
 
 - **Date and time** · Saturday, October 31, 2026, 09:00–12:00 (UTC+7)
 - **Venue** · 26th floor, Bitexco Financial Tower, Ho Chi Minh City
-- **Role** · **Education session speaker, 09:30–09:55**
+- **Role** · In-person attendee
 
-I presented *New to AWS? Where Should You Start?*, introducing AWS Study Group, AWS Skill Builder, and AWS Builder Center. The program also covered software factories, Lambda Web Functions, Amazon SQS, internships, and open source.
+The program featured six sessions covering large-scale software factories, starting learning paths on AWS, AWS Lambda Web Functions, asynchronous architectures with Amazon SQS, internship reflections, and open source contribution. I attended in-person, engaged with the community, and networked with speakers.

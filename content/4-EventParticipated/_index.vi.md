@@ -42,6 +42,6 @@ Chương trình về đưa Agentic AI vào vận hành, xây dựng sản phẩm
 
 - **Thời gian** · Thứ Bảy, 31/10/2026, 09:00–12:00 (UTC+7)
 - **Địa điểm tổ chức** · Tầng 26, Bitexco Financial Tower, TP.HCM
-- **Vai trò** · **Diễn giả phiên Education, 09:30–09:55**
+- **Vai trò** · Người tham dự trực tiếp
 
-Em trình bày *New to AWS? Where Should You Start?*, giới thiệu cách bắt đầu học AWS qua AWS Study Group, AWS Skill Builder và AWS Builder Center. Chương trình còn có các phiên về software factories, Lambda Web Functions, Amazon SQS, thực tập và mã nguồn mở.
+Chương trình gồm sáu phiên chia sẻ về phần mềm quy mô lớn, kinh nghiệm bắt đầu học AWS, AWS Lambda Web Functions, kiến trúc hệ thống bất đồng bộ với Amazon SQS, trải nghiệm 3 tháng thực tập và văn hóa đóng góp mã nguồn mở. Em tham gia lắng nghe, đặt câu hỏi và kết nối với các diễn giả cùng cộng đồng FCAJ.

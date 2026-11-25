@@ -12,8 +12,8 @@ pre: " <b> 4.5. </b> "
 - **Time** · 09:00–12:00 (UTC+7)
 - **Venue** · 26th floor, Bitexco Financial Tower, 02 Hai Trieu Street, Ho Chi Minh City
 - **Organizer** · AWS First Cloud AI Journey (FCAJ)
-- **My role** · **Education session speaker, 09:30–09:55**
-- **Talk title** · *New to AWS? Where Should You Start?*
+- **My role** · In-person attendee
+- **Key focus** · Learning paths for AWS beginners, serverless web architectures, and asynchronous systems with Amazon SQS
 
 <figure>
   <img src="/images/4-EventParticipated/event-5/community-day-poster.png" alt="FCAJ Community Day poster for October 31, 2026 with six speakers" decoding="async">
@@ -22,7 +22,7 @@ pre: " <b> 4.5. </b> "
 
 ### Event objectives
 
-FCAJ Community Day brought students and practitioners together for six talks. The morning covered software delivery, AWS learning, serverless web architecture, asynchronous processing with Amazon SQS, internship experience, and open source contribution. I spoke in the Education session about choosing AWS learning resources according to what a beginner needs to do next. [FCAJ Community Day agenda](https://luma.com/1izeyind)
+FCAJ Community Day brought students and practitioners together for six talks. The morning covered software delivery, AWS learning, serverless web architecture, asynchronous processing with Amazon SQS, internship experience, and open source contribution. I attended in person, engaging with the speakers and understanding how to structure learning resources effectively for practical projects. [FCAJ Community Day agenda](https://luma.com/1izeyind)
 
 ### Speakers
 
@@ -40,7 +40,7 @@ FCAJ Community Day brought students and practitioners together for six talks. Th
 | Time (UTC+7) | Session | Focus |
 | --- | --- | --- |
 | 09:00–09:25 | Lessons Learned from Building Software Factories | Lessons from organizing software delivery at scale. |
-| **09:30–09:55** | **Education · New to AWS? Where Should You Start?** | My talk on starting with AWS and choosing resources for different learning goals. |
+| **09:30–09:55** | **Education · New to AWS? Where Should You Start?** | Presentation by teammate Tran Minh Tuan on beginning with AWS and selecting appropriate resources. |
 | 10:00–10:25 | AWS Lambda Web Functions: Rethinking Serverless Web Architecture | Native HTTP, concurrent request processing, and evaluating performance and cost. |
 | 10:30–11:00 | Amazon SQS: Building Asynchronous Systems | Decoupling producers and workers with queues, and comparing Standard and FIFO. |
 | 11:00–11:25 | My 3-Month AWS Internship Journey | An FCAJ internship and a serverless card game project. |
@@ -57,9 +57,9 @@ FCAJ Community Day brought students and practitioners together for six talks. Th
   <figcaption>Opening talk on CloudThinker's experience building software factories.</figcaption>
 </figure>
 
-#### My talk · New to AWS? Where Should You Start?
+#### Education session · New to AWS? Where Should You Start?
 
-In the **Education** session, I opened with a question about where to start when there are many places to learn AWS. I introduced three resources by the purpose each one serves. This gives students a concrete way to choose their next step, whether that is to learn a concept, complete a workshop, or see how other builders approach a similar problem.
+In the **Education** session, speaker Tran Minh Tuan opened with a question about where to start when there are many places to learn AWS. He introduced three resources by the purpose each one serves. As an attendee, I found this breakdown particularly actionable for choosing the next learning step—whether studying core concepts, completing a guided workshop, or exploring community use cases.
 
 | Resource | What I introduced |
 | --- | --- |
