@@ -24,10 +24,17 @@ pre: " <b> 1.7. </b> "
 | Thứ Năm | **Phân tích demo RDS và DynamoDB**<ul><li>Theo dõi demo tạo cơ sở dữ liệu MySQL trên RDS, thêm dữ liệu vào các bảng và dùng JOIN để đọc thông tin có quan hệ.</li><li>Đối chiếu với demo tạo bảng DynamoDB và thêm item qua SDK. So sánh Query theo khóa với Scan đọc qua bảng, nêu cách khác biệt đó ảnh hưởng đến lượng dữ liệu được đọc. Ghi lại các tài nguyên phải kiểm tra nếu thực hiện lại demo.</li></ul> | 29/10/2026 | 29/10/2026 | [AWS Skill Builder — Module 7](https://skillbuilder.aws/renderer/?module_id=B1DGAV8S16%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>04 — AWS Databases Demonstration |
 | Thứ Sáu | **Cache và cơ sở dữ liệu chuyên dụng**<ul><li>Vẽ luồng cache hit và cache miss giữa API, ElastiCache và RDS. Cân nhắc thời hạn cache và nguy cơ trả dữ liệu cũ sau một lần cập nhật.</li><li>Ghép DocumentDB với dữ liệu dạng tài liệu, Neptune với quan hệ dạng đồ thị, DAX với tăng tốc đọc DynamoDB và Managed Blockchain với tình huống dùng sổ cái phân tán. Liên hệ AWS Backup với yêu cầu khôi phục dữ liệu từ điểm sao lưu.</li></ul> | 30/10/2026 | 30/10/2026 | [AWS Skill Builder — Module 7](https://skillbuilder.aws/renderer/?module_id=B1DGAV8S16%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — In-Memory Caching Services<br>06 — Additional Database Services |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Module 7 giúp em nắm bắt sự khác biệt giữa cơ sở dữ liệu quan hệ (Amazon RDS PostgreSQL) và NoSQL (Amazon DynamoDB). Đối với dự án Tindy, việc lựa chọn RDS PostgreSQL là hoàn toàn chuẩn xác vì các đối tượng dữ liệu có mối quan hệ chặt chẽ: một User sở hữu một Profile, một Project có nhiều vị trí tuyển dụng, và một Application liên kết giữa ứng viên với vị trí cụ thể.
+
+Khi xây dựng giao diện hiển thị danh sách dự án và điểm match, em đã hiểu cách Backend thực hiện các câu lệnh JOIN và truy vấn dữ liệu quan hệ để trả về đúng cấu trúc DTO JSON mà Frontend cần render.
+
 ### Thành tựu Tuần 7
 
 - Mẫu truy vấn, quan hệ giữa bản ghi và yêu cầu giao dịch là cơ sở chọn dịch vụ và khóa dữ liệu.
 - Có thể phân biệt các bước JOIN trong RDS với Query và Scan trong DynamoDB qua demo của khóa học.
 - Cache giảm lượt đọc trực tiếp vào cơ sở dữ liệu. Chính sách sao lưu và kiểm tra khôi phục giải quyết nhu cầu bảo toàn dữ liệu.
 - **Áp dụng vào Tindy:** Nghiên cứu thiết kế cơ sở dữ liệu quan hệ RDS PostgreSQL 17 lưu trữ Profile, Project, Match data và lịch sử tin nhắn trò chuyện.
+
 

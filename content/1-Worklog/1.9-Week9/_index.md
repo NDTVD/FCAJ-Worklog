@@ -24,10 +24,19 @@ pre: " <b> 1.9. </b> "
 | Thursday | **Detection and incident investigation**<ul><li>Map the roles of Inspector for vulnerability findings, GuardDuty for threat findings, Detective for investigation, and Security Hub for consolidated security visibility.</li><li>Use a sample finding to identify the resource, time, and evidence to check. Link finding triage to impact verification before choosing a response.</li></ul> | Nov 12, 2026 | Nov 12, 2026 | [AWS Skill Builder — Module 9](https://skillbuilder.aws/renderer/?module_id=TNAPD78T9R%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — Detecting and Responding to Security Incidents |
 | Friday | **Reviewing security resources**<ul><li>Identify when to use AWS documentation for configuration, Knowledge Center for troubleshooting, and the AWS Security Blog for implementation context.</li><li>Review a scenario for adopting a security solution from AWS Marketplace. Evaluate permissions, cost, operating responsibilities, and infrastructure fit before selecting it.</li></ul> | Nov 13, 2026 | Nov 13, 2026 | [AWS Skill Builder — Module 9](https://skillbuilder.aws/renderer/?module_id=TNAPD78T9R%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Additional Security Resources |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+Module 9 provided a rigorous overview of cloud security, from AWS IAM Least Privilege principles to Security Groups and WAF firewalls.
+
+At the application level, I applied these security foundations directly to our backend optimizations:
+1. Strict CORS Controls: Configured ASP.NET Core policies to allow only authorized CloudFront distribution domains and local development origins, mitigating cross-origin vulnerabilities.
+2. Message Rate Limiting Middleware: Built request throttling mechanisms for chat message submission and SignalR hubs, defending Fargate containers against denial-of-service spam.
+
 ### Week 9 Learning Outcomes
 
 - IAM and least privilege limit what each identity or workload can do.
 - Security groups, WAF, Shield, TLS, and encryption at rest serve different protection layers.
 - A security finding is an input to verifying the affected resource, timeline, and impact.
 - **Application in Tindy:** Personally configured CORS in ASP.NET Core for secure CloudFront API access and implemented backend Message Rate Limiting against chat spam.
+
 

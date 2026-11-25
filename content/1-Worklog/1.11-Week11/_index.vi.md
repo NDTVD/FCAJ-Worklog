@@ -24,10 +24,17 @@ pre: " <b> 1.11. </b> "
 | Thứ Năm | **AWS Marketplace và AWS Partner Network**<ul><li>Phân biệt tìm sản phẩm hoặc dịch vụ qua AWS Marketplace với tìm đối tác có chuyên môn triển khai, tích hợp hoặc migration qua AWS Partner Network.</li><li>Đánh giá một công cụ bên thứ ba theo mô hình tính phí, điều khoản, quyền truy cập và công việc vận hành. Tách khoản phí của nhà cung cấp khỏi chi phí tài nguyên AWS phát sinh khi chạy công cụ.</li></ul> | 26/11/2026 | 26/11/2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — AWS Marketplace and AWS Partners |
 | Thứ Sáu | **Tối ưu chi phí dựa trên mức sử dụng**<ul><li>Đọc ví dụ rightsizing compute, kiểm tra mức sử dụng RDS và chọn lifecycle cho dữ liệu S3. Đánh giá đường truyền và trường hợp có thể dùng S3 Gateway Endpoint thay cho đường qua NAT trong kiến trúc phù hợp.</li><li>Lập quy trình đo chi phí hiện tại, chọn một thay đổi, theo dõi tác động rồi kiểm tra hiệu suất sau thay đổi. Ưu tiên xử lý tài nguyên demo không cần chạy liên tục và liệt kê dữ liệu phải giữ để phục hồi.</li></ul> | 27/11/2026 | 27/11/2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Cost Optimization |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Học về chi phí trên AWS giúp em từ bỏ thói quen bật tài nguyên rồi để quên. Em đã thực hành sử dụng công cụ AWS Pricing Calculator để lên dự toán chi tiết cho Tindy, tính toán từng đồng chi phí của Fargate task, ALB, RDS và băng thông CloudFront.
+
+Nhờ hiểu rõ cơ chế tính tiền theo giờ và theo lưu lượng, nhóm em đã áp dụng chiến lược vận hành thông minh: chuyển CloudFront sang chế độ bảo trì và tạm dừng ECS task khi không có buổi demo, giúp giảm chi phí thực tế từ dự toán ~/tháng xuống dưới  cho toàn bộ kỳ thực tập.
+
 ### Thành tựu Tuần 11
 
 - Chi phí ứng dụng phụ thuộc cả thời lượng chạy và tài nguyên lưu lại giữa các lần sử dụng.
 - Billing Dashboard, Budgets và Cost Explorer lần lượt hỗ trợ xem chi phí, nhận cảnh báo và phân tích xu hướng.
 - Một đề xuất tối ưu cần có số liệu trước và sau, kỳ vọng vận hành và phương án bảo toàn dữ liệu.
 - **Áp dụng vào Tindy:** Thực hành ước tính chi phí qua AWS Pricing Calculator (~.32/tháng) và áp dụng chiến lược chạy demo theo lịch để giữ chi phí thực tế dưới .
+
 

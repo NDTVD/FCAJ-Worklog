@@ -24,9 +24,16 @@ pre: " <b> 1.2. </b> "
 | Thứ Năm | **Mở rộng và cân bằng tải**<ul><li>Phân biệt mở rộng theo chiều dọc và chiều ngang. Tìm hiểu Auto Scaling group và vai trò của CloudWatch. Phân tích cách Elastic Load Balancing phân phối lưu lượng và dùng health check.</li><li>Mô tả cách ứng dụng xử lý đợt tăng tải. AWS Auto Scaling sẽ điều chỉnh công suất của nhóm EC2 trong khi cân bằng tải định tuyến các yêu cầu đến target đủ điều kiện. Vẽ thêm tình huống một target lỗi và chỉ ra vai trò của health check.</li></ul> | 24/09/2026 | 24/09/2026 | [AWS Skill Builder — Module 2](https://skillbuilder.aws/renderer/?module_id=422P3V2XSR%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Scaling Amazon EC2<br>07 — Directing Traffic with Elastic Load Balancing |
 | Thứ Sáu | **Hàng đợi, thông báo và fanout**<ul><li>So sánh hàng đợi Amazon SQS và mô hình publish/subscribe của Amazon SNS qua ví dụ fanout.</li><li>Mô tả một producer gửi yêu cầu xử lý ảnh vào hàng đợi và một worker lấy việc ra xử lý. Mở rộng ví dụ thành mô hình fanout để một sự kiện được gửi tới nhiều hàng đợi, mỗi consumer xử lý tác vụ riêng. Ghi lý do dùng SNS và SQS ở từng điểm.</li></ul> | 25/09/2026 | 25/09/2026 | [AWS Skill Builder — Module 2](https://skillbuilder.aws/renderer/?module_id=422P3V2XSR%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>08 — Messaging and Queuing |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Trong tuần học về Compute và Messaging, em đặc biệt chú ý đến cách thức Elastic Load Balancing (ALB) điều phối lưu lượng truy cập. Với vai trò Frontend phụ trách tính năng Chat thời gian thực trên Tindy, em nhận thấy ALB không chỉ đơn thuần phân chia HTTP request mà còn phải hỗ trợ duy trì kết nối WebSocket liên tục để người dùng không bị rớt kết nối SignalR khi đang nhắn tin.
+
+Bên cạnh đó, việc tìm hiểu về Amazon SQS và SNS mang lại cho em tư duy thiết kế bất đồng bộ (asynchronous decoupling). Thay vì bắt người dùng phải chờ đợi trình duyệt xoay vòng khi upload tệp CV PDF nặng, hệ thống có thể tiếp nhận yêu cầu ngay lập tức và đẩy tác vụ quét virus, trích xuất AI vào hàng đợi ngầm phía sau, giúp tối ưu hóa đáng kể trải nghiệm tương tác (UX) của người dùng.
+
 ### Thành tựu Tuần 2
 
 - Loại instance phụ thuộc vào nhu cầu của workload. AMI xác định phần mềm ban đầu, còn user data có thể chạy các bước cấu hình khi khởi tạo.
 - EC2 Auto Scaling điều chỉnh số lượng instance, Elastic Load Balancing phân phối yêu cầu, còn SQS và SNS hỗ trợ giao tiếp bất đồng bộ.
 - **Áp dụng vào Tindy:** Hiểu cách Application Load Balancer (ALB) điều phối lưu lượng và duy trì kết nối WebSocket liên tục cho khung chat SignalR hai chiều.
+
 

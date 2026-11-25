@@ -24,10 +24,17 @@ pre: " <b> 1.8. </b> "
 | Thứ Năm | **Từ nguồn dữ liệu đến báo cáo**<ul><li>Phân biệt data lake trên S3 với data warehouse và so sánh thứ tự xử lý của ETL, ELT và Zero-ETL theo ghi chú.</li><li>Vẽ quy trình thu nhận qua Kinesis Data Streams hoặc Data Firehose, lập danh mục và xử lý với Glue hoặc EMR, truy vấn qua Athena hoặc Redshift rồi trực quan hóa. Ghi rõ vấn đề chất lượng dữ liệu cần xử lý trước khi tạo báo cáo.</li></ul> | 05/11/2026 | 05/11/2026 | [AWS Skill Builder — Module 8](https://skillbuilder.aws/renderer/?module_id=NUYARVB13G%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Introduction to Data Analytics<br>07 — Data Pipelines on AWS |
 | Thứ Sáu | **Kết hợp phân tích dữ liệu với ML**<ul><li>Lần theo ví dụ thay đổi dữ liệu DynamoDB đi qua Kinesis Data Streams và Data Firehose. Chú thích bước biến đổi bằng Lambda và nơi lưu trữ lâu dài trên S3.</li><li>Tách hai nhánh khai thác sau khi dữ liệu vào data lake. Athena dùng metadata từ Glue Data Catalog để truy vấn, còn SageMaker AI dùng dữ liệu phù hợp cho huấn luyện. Ghi cách kiểm tra tính nhất quán của dữ liệu cho hai nhánh.</li></ul> | 06/11/2026 | 06/11/2026 | [AWS Skill Builder — Module 8](https://skillbuilder.aws/renderer/?module_id=NUYARVB13G%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>08 — Data Analytics and AI-ML |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Đây là tuần học hào hứng nhất đối với em vì nội dung Generative AI gắn liền trực tiếp với tính năng trọng tâm của Tindy: phân tích CV và gợi ý matching thông minh qua Amazon Bedrock.
+
+Em học được rằng không nên phụ thuộc hoàn toàn vào AI để đưa ra quyết định tuyển dụng mà cần kết hợp giữa quy tắc nghiệp vụ (Business Rules) và phân tích ngữ nghĩa (Semantic Embedding). Trên giao diện người dùng, em đã thiết kế thành công thành phần AI Draft Review: khi Bedrock trích xuất danh sách kỹ năng từ CV PDF, giao diện sẽ hiển thị dưới dạng các thẻ để sinh viên có thể tự do kiểm tra, chỉnh sửa hoặc xóa trước khi bấm lưu chính thức vào database.
+
 ### Thành tựu Tuần 8
 
 - Phân biệt dịch vụ AI dựng sẵn, nền tảng xây dựng mô hình và hạ tầng tự quản lý.
 - Đầu ra Generative AI cần được kiểm tra theo tiêu chí của ứng dụng trước khi đưa vào hồ sơ hoặc quy trình nghiệp vụ.
 - Một data lake có thể phục vụ phân tích và ML khi dữ liệu được xử lý, lập danh mục và kiểm tra chất lượng.
 - **Áp dụng vào Tindy:** Tích hợp Amazon Bedrock để trích xuất kỹ năng từ CV; thiết kế giao diện AI Draft Review cho phép ứng viên xem lại và chỉnh sửa trước khi lưu.
+
 

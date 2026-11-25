@@ -24,9 +24,16 @@ pre: " <b> 1.6. </b> "
 | Thursday | **Amazon S3 buckets, objects, and metadata**<ul><li>Review buckets, objects, keys, and metadata. Distinguish durability from availability.</li><li>Describe how a bucket contains objects, a key identifies an object, and metadata describes it. Use a profile file to distinguish permission to read it, availability at a given time, and long-term durability.</li></ul> | Oct 22, 2026 | Oct 22, 2026 | [AWS Skill Builder — Module 6](https://skillbuilder.aws/renderer/?module_id=18SQAPSR8X%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>04 — Amazon Simple Storage Service (Amazon S3) |
 | Friday | **Storage classes, S3 Lifecycle, and the S3 demo**<ul><li>Compare storage classes by access frequency, retrieval time, and cost. Review S3 Lifecycle transitions and object expiration. Review the demo for creating a bucket, uploading an object, inspecting metadata, and examining bucket policy and S3 Versioning.</li><li>Choose storage classes for frequently viewed images, infrequently accessed data, and long-term archives. Draft a Lifecycle example with transition and expiration dates. Cross-check the console demo for the bucket, object, and version information to inspect.</li></ul> | Oct 23, 2026 | Oct 23, 2026 | [AWS Skill Builder — Module 6](https://skillbuilder.aws/renderer/?module_id=18SQAPSR8X%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — Amazon S3 Storage Classes and S3 Lifecycle<br>06 — Amazon S3 Demonstration |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+As a frontend developer, Amazon S3 is the AWS service I engage with most frequently. This week clarified the distinctions between block storage (EBS) and object storage (S3).
+
+I applied this directly to project Tindy by defining two separate S3 storage roles: one private bucket for static React bundles governed by Origin Access Control (OAC), and a dedicated S3 Media bucket for avatars and candidate resumes. Learning about S3 Lifecycle policies also gave me practical ideas for automated temporary file cleanup to optimize storage costs.
+
 ### Week 6 Learning Outcomes
 
 - Instance store suits temporary data, EBS persists data according to the volume lifecycle, and snapshots provide recovery points.
 - Choose storage classes based on data access requirements. S3 Lifecycle automates object transitions and expiration.
 - **Application in Tindy:** Configured Amazon S3 for static frontend hosting (via OAC) and private S3 Media storage for uploaded candidate resumes.
+
 

@@ -24,9 +24,16 @@ pre: " <b> 1.4. </b> "
 | Thứ Năm | **Template, stack và quản lý thay đổi**<ul><li>Tìm hiểu CloudFormation template và stack. Ôn công dụng của change sets, drift detection và StackSets.</li><li>Chú thích một template theo tham số, tài nguyên và đầu ra. Sau đó nối mỗi thao tác với công cụ phù hợp: xem trước thay đổi với change set, phát hiện sai khác với drift detection và dùng StackSets khi cần quản lý triển khai trên nhiều tài khoản hoặc Region.</li></ul> | 08/10/2026 | 08/10/2026 | [AWS Skill Builder — Module 4](https://skillbuilder.aws/renderer/?module_id=VEE8JSBK3Z%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>04 — Infrastructure and Automation |
 | Thứ Sáu | **Tình huống chọn Region và chuẩn bị cấu hình**<ul><li>Chọn Region cho một ứng dụng mẫu, giải thích lựa chọn theo tiêu chí đã học và phác thảo các tham số cần đưa vào template CloudFormation.</li><li>Đưa quyết định chọn Region vào một cấu hình triển khai có thể lặp lại. Phân biệt thông số cố định trong template với thông số cần truyền khi tạo stack. Dùng danh sách tham số và đầu ra dự kiến làm bước chuẩn bị cho bài lab tuần sau.</li></ul> | 09/10/2026 | 09/10/2026 | [AWS Skill Builder — Module 4](https://skillbuilder.aws/renderer/?module_id=VEE8JSBK3Z%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>02 — Choosing AWS Regions<br>04 — Infrastructure and Automation |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Module 4 giúp em hiểu được khái niệm Infrastructure as Code (IaC) thông qua AWS CloudFormation. Nhìn cách một hệ thống phức tạp gồm hàng chục tài nguyên (VPC, Subnets, ALB, ECS, S3) được định nghĩa mạch lạc trong các file YAML giúp em thấy rõ sự chuyên nghiệp so với việc bấm tay thủ công trên AWS Console.
+
+Đối với người làm giao diện web, kiến thức về Edge Location và CloudFront trong tuần này đặc biệt hữu ích. Em hiểu được cơ chế phân phối tĩnh: thay vì người dùng phải tải từng file bundle .js, .css từ máy chủ gốc ở Virginia với độ trễ cao, CloudFront sẽ lưu đệm các file tĩnh này tại các điểm Edge gần người dùng nhất tại Việt Nam, giúp tốc độ mở trang Tindy nhanh gấp nhiều lần.
+
 ### Thành tựu Tuần 4
 
 - Lựa chọn Region cần cân bằng độ trễ với yêu cầu về vị trí lưu trữ dữ liệu, tính năng dịch vụ và chi phí.
 - CloudFormation dùng template để mô tả hạ tầng và stack để quản lý tập tài nguyên được triển khai từ template.
 - **Áp dụng vào Tindy:** Lựa chọn Region us-east-1 cho toàn bộ hệ thống; nghiên cứu cách CloudFront phân phối static bundle React tới người dùng với độ trễ thấp.
+
 

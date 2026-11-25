@@ -25,10 +25,17 @@ pre: " <b> 1.13. </b> "
 | Friday | **Reviewing Tindy and consolidating the course**<ul><li>Use the six pillars to review the Tindy demo. Compare the limitations of one Fargate task and Single-AZ RDS with readiness monitoring, backups, and recovery after a failure.</li><li>Distinguish what the code or documentation already describes from what still needs verification. Prepare a list of objectives, evidence, and references for the bilingual report.</li></ul> | Dec 11, 2026 | Dec 11, 2026 | [AWS Skill Builder — Module 13](https://skillbuilder.aws/renderer/?module_id=B4R4AU7BWJ%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>01 — Introduction to Well-Architected Solutions<br>03 — AWS Well-Architected Framework<br>04 — Specialized Use Cases |
 | Monday | **Internship wrap-up**<ul><li>Complete the internship wrap-up and finalize the report.</li><li>Finalize the self-assessment based on the knowledge and work recorded. Review the table of contents, both language versions, and the source of each piece of evidence before finalizing the report.</li></ul> | Dec 14, 2026 | Dec 14, 2026 | Internship report |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+The final week offered an opportunity to evaluate our overall internship progress against the six pillars of the AWS Well-Architected Framework (Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability).
+
+Reviewing Tindy through these architectural lenses ensured our frontend delivery, backend throttling, and infrastructure provisioning met rigorous standards, culminating in our successful Workshop Section 5.6 demonstration video. This internship strengthened both my core frontend engineering competencies and practical cloud architectural thinking.
+
 ### Week 13 Learning Outcomes
 
 - The six pillars provide architecture review criteria. The Well-Architected Tool helps record answers, risks, and improvements.
 - The roles of specialized services can be explained through three examples: a serverless backend, a contact form, and a contact center.
 - The wrap-up relates Tindy's demo context to security, reliability, operations, and cost decisions.
 - **Application in Tindy:** Assessed Tindy against the 6 Well-Architected pillars; finalized end-to-end UI verification and Workshop Section 5.6 demo scenarios.
+
 

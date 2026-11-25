@@ -24,9 +24,16 @@ pre: " <b> 1.6. </b> "
 | Thứ Năm | **Bucket, object và metadata của Amazon S3**<ul><li>Tìm hiểu bucket, object, key và metadata. Phân biệt độ bền dữ liệu với tính khả dụng.</li><li>Mô tả cách bucket chứa object, object được nhận diện theo key và metadata mô tả dữ liệu. Dùng ví dụ tệp hồ sơ để phân biệt quyền đọc object, khả năng truy cập dịch vụ tại một thời điểm và khả năng dữ liệu được lưu bền vững.</li></ul> | 22/10/2026 | 22/10/2026 | [AWS Skill Builder — Module 6](https://skillbuilder.aws/renderer/?module_id=18SQAPSR8X%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>04 — Amazon Simple Storage Service (Amazon S3) |
 | Thứ Sáu | **Storage class, S3 Lifecycle và demo**<ul><li>So sánh các storage class theo tần suất truy cập, thời gian truy xuất và chi phí. Đọc ví dụ chuyển lớp và hết hạn đối tượng trong S3 Lifecycle. Phân tích demo tạo bucket, tải object lên, xem metadata và tìm hiểu bucket policy và S3 Versioning.</li><li>Chọn lớp lưu trữ cho ảnh thường xem, dữ liệu ít truy cập và bản lưu dài hạn. Viết một ví dụ S3 Lifecycle có mốc chuyển lớp và hết hạn. Đối chiếu với demo trên Console để xác định thông tin bucket, object và lịch sử phiên bản cần kiểm tra.</li></ul> | 23/10/2026 | 23/10/2026 | [AWS Skill Builder — Module 6](https://skillbuilder.aws/renderer/?module_id=18SQAPSR8X%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — Amazon S3 Storage Classes and S3 Lifecycle<br>06 — Amazon S3 Demonstration |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Là lập trình viên Frontend, Amazon S3 là dịch vụ em tương tác nhiều nhất. Trong tuần này, em phân biệt rõ sự khác nhau giữa EBS (block storage gắn với máy chủ ảo) và S3 (object storage lưu trữ tệp không giới hạn).
+
+Em áp dụng trực tiếp kiến thức này vào Tindy bằng việc chia tách 2 bucket S3 với mục đích riêng biệt: một bucket lưu trữ bản build tĩnh của React (HTML/CSS/JS) được bảo vệ bằng Origin Access Control (OAC), và một bucket S3 Media riêng tư dùng để chứa ảnh avatar cùng các tệp CV PDF của sinh viên. Việc hiểu về S3 Lifecycle cũng giúp em lên ý tưởng dọn dẹp các tệp tạm nhằm tiết kiệm dung lượng lưu trữ.
+
 ### Thành tựu Tuần 6
 
 - Instance Store phù hợp với dữ liệu tạm, EBS duy trì dữ liệu theo vòng đời của volume và snapshot cung cấp điểm khôi phục.
 - Chọn storage class theo cách sử dụng dữ liệu. S3 Lifecycle tự động chuyển lớp lưu trữ hoặc đặt thời điểm hết hạn cho object.
 - **Áp dụng vào Tindy:** Cấu hình Amazon S3 lưu trữ bản build tĩnh của Frontend (qua OAC) và S3 Media Bucket lưu trữ CV PDF người dùng tải lên.
+
 

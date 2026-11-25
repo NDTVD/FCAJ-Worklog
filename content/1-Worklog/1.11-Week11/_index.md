@@ -24,10 +24,17 @@ pre: " <b> 1.11. </b> "
 | Thursday | **AWS Marketplace and AWS Partner Network**<ul><li>Distinguish sourcing products or services through AWS Marketplace from finding implementation, integration, or migration expertise through the AWS Partner Network.</li><li>Evaluate a third-party tool by its pricing model, terms, permissions, and operational work. Separate vendor charges from AWS infrastructure charges incurred while running it.</li></ul> | Nov 26, 2026 | Nov 26, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — AWS Marketplace and AWS Partners |
 | Friday | **Optimizing costs using usage data**<ul><li>Review examples of compute rightsizing, RDS utilization checks, and S3 lifecycle selection. Examine transfer paths and when an S3 gateway endpoint can replace a NAT path in a suitable architecture.</li><li>Outline a cycle for measuring current cost, selecting one change, tracking its effect, and checking performance afterward. Prioritize demo resources that do not require continuous operation and list the data needed for recovery.</li></ul> | Nov 27, 2026 | Nov 27, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Cost Optimization |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+Studying cloud economics instilled disciplined resource management. I gained hands-on experience with the AWS Pricing Calculator, breaking down monthly costs across Fargate compute hours, ALB listeners, RDS databases, and CloudFront bandwidth.
+
+Understanding hourly compute billing inspired our operational schedule: placing CloudFront in maintenance mode and stopping ECS tasks between demonstration sessions, keeping our actual internship cloud spend well under  total.
+
 ### Week 11 Learning Outcomes
 
 - Application cost depends on runtime and resources retained between runs.
 - Billing Dashboard, Budgets, and Cost Explorer support reviewing charges, receiving alerts, and analyzing trends.
 - An optimization proposal needs before-and-after measurements, operating expectations, and a data preservation plan.
 - **Application in Tindy:** Practiced cost modeling with AWS Pricing Calculator (~.32/mo) and adopted scheduled demo teardowns to keep actual costs under .
+
 

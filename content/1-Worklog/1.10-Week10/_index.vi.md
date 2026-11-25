@@ -24,10 +24,17 @@ pre: " <b> 1.10. </b> "
 | Thứ Năm | **Quản trị nhiều tài khoản AWS**<ul><li>Vẽ cấu trúc AWS Organizations gồm management account, member account và OU. Phân biệt thanh toán hợp nhất với quản lý quyền.</li><li>Dùng ví dụ tách môi trường dev và production để giải thích SCP giới hạn phạm vi quyền có thể cấp. Liên hệ AWS Control Tower với landing zone, Account Factory và các control phục vụ quản trị nhiều tài khoản.</li></ul> | 19/11/2026 | 19/11/2026 | [AWS Skill Builder — Module 10](https://skillbuilder.aws/renderer/?module_id=HU3PMBK47Y%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>07 — AWS Organizations<br>08 — Governance |
 | Thứ Sáu | **AWS Health và AWS Trusted Advisor**<ul><li>Dùng ví dụ thông báo bảo trì Fargate để đọc phạm vi tài nguyên bị ảnh hưởng, thời gian và hành động đề xuất trong AWS Health.</li><li>So sánh sự kiện AWS Health với khuyến nghị Trusted Advisor. Chọn một kiểm tra về chi phí hoặc giới hạn dịch vụ, xác minh tài nguyên liên quan và ghi người chịu trách nhiệm xử lý.</li></ul> | 20/11/2026 | 20/11/2026 | [AWS Skill Builder — Module 10](https://skillbuilder.aws/renderer/?module_id=HU3PMBK47Y%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>09 — AWS Health<br>10 — AWS Trusted Advisor |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Tuần 10 tập trung vào việc giám sát và quản trị hệ thống với Amazon CloudWatch và CloudTrail. Em nhận ra rằng một ứng dụng tốt không chỉ chạy được mà còn phải có khả năng quan sát (Observability) để phát hiện và xử lý sự cố kịp thời.
+
+Trong quá trình kiểm thử giao diện Tindy, em đã kết hợp giữa việc kiểm tra console/network trên Chrome DevTools với việc theo dõi log thời gian thực trên CloudWatch. Khi thử nghiệm tính năng Rate Limiting, em có thể quan sát thấy request trả về mã 429 Too Many Requests trên trình duyệt đồng thời log cảnh báo được ghi lại tức thời trên CloudWatch Logs.
+
 ### Thành tựu Tuần 10
 
 - CloudWatch giúp nhận biết tình trạng vận hành, còn CloudTrail cho phép lần lại thao tác API.
 - AWS Artifact cung cấp tài liệu tuân thủ của AWS. AWS Config ghi nhận và đánh giá cấu hình tài nguyên theo quy tắc đã chọn.
 - AWS Organizations và Control Tower hỗ trợ đặt quy tắc chung cho nhiều tài khoản. AWS Health và Trusted Advisor cung cấp đầu vào cho các công việc vận hành.
 - **Áp dụng vào Tindy:** Kết hợp Chrome DevTools Network với CloudWatch Logs để giám sát mã phản hồi HTTP 101 WebSocket và phát hiện các request bị chặn do Rate Limit (429).
+
 

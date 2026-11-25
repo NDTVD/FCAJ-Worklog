@@ -24,10 +24,17 @@ pre: " <b> 1.8. </b> "
 | Thursday | **From data sources to reports**<ul><li>Distinguish an S3 data lake from a data warehouse and compare ETL, ELT, and Zero-ETL approaches using the study notes.</li><li>Sketch ingestion with Kinesis Data Streams or Data Firehose, cataloging and processing with Glue or EMR, querying through Athena or Redshift, and visualization. Identify data quality issues to address before reporting.</li></ul> | Nov 5, 2026 | Nov 5, 2026 | [AWS Skill Builder — Module 8](https://skillbuilder.aws/renderer/?module_id=NUYARVB13G%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Introduction to Data Analytics<br>07 — Data Pipelines on AWS |
 | Friday | **Combining data analytics and ML**<ul><li>Trace the example DynamoDB changes through Kinesis Data Streams and Data Firehose. Mark the Lambda transformation and the long-term storage in S3.</li><li>Separate the two uses after data reaches the lake. Athena uses Glue Data Catalog metadata for queries, while SageMaker AI uses suitable data for training. Note how to check data consistency for both paths.</li></ul> | Nov 6, 2026 | Nov 6, 2026 | [AWS Skill Builder — Module 8](https://skillbuilder.aws/renderer/?module_id=NUYARVB13G%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>08 — Data Analytics and AI-ML |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+This was one of the most exciting modules, tying directly into Tindy's flagship generative AI capability: CV parsing and intelligent recommendation via Amazon Bedrock.
+
+I learned that production AI applications should combine deterministic business rules with semantic embeddings rather than relying solely on raw LLM inferences. On the frontend, I translated this into the AI Draft Review UI: when Bedrock parses resume skills, the interface renders editable tag chips so students can verify, modify, or reject suggestions before committing data to PostgreSQL.
+
 ### Week 8 Learning Outcomes
 
 - Prebuilt AI services, managed model development, and self-managed infrastructure serve different needs.
 - Generative AI output needs application-specific validation before it enters profiles or business workflows.
 - A data lake can serve analytics and ML when data is processed, cataloged, and checked for quality.
 - **Application in Tindy:** Integrated Amazon Bedrock for CV skill parsing; engineered the AI Draft Review UI allowing candidates to review and edit suggestions.
+
 

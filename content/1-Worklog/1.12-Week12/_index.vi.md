@@ -24,10 +24,17 @@ pre: " <b> 1.12. </b> "
 | Thứ Năm | **Chuyển dữ liệu qua mạng**<ul><li>So sánh DataSync để chuyển tập dữ liệu giữa các hệ thống lưu trữ, Transfer Family để nhận tệp qua giao thức được hỗ trợ và Direct Connect để cung cấp kết nối chuyên dụng.</li><li>Ước tính thời gian sao chép thư mục media từ dung lượng và thông lượng thực tế. Phân biệt công việc chuyển tệp một lần với kết nối lâu dài và xác định cách kiểm tra tệp ở đích.</li></ul> | 03/12/2026 | 03/12/2026 | [AWS Skill Builder — Module 12](https://skillbuilder.aws/renderer/?module_id=P6BSGWZVFE%3A001.000.003&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Transferring Data Online |
 | Thứ Sáu | **Chuyển dữ liệu offline và đánh giá đánh đổi**<ul><li>Đọc ví dụ Snowball Edge trong tài liệu để hiểu quá trình chép dữ liệu vào thiết bị, vận chuyển và nhập vào AWS. Liên hệ xử lý tại edge với môi trường thiếu kết nối ổn định.</li><li>So sánh tổng thời gian sao chép, vận chuyển và nhập dữ liệu với phương án online. Khi lập phương án mẫu, ghi rõ cần kiểm tra khả năng sử dụng dịch vụ và chọn cách xác minh tính toàn vẹn sau chuyển.</li></ul> | 04/12/2026 | 04/12/2026 | [AWS Skill Builder — Module 12](https://skillbuilder.aws/renderer/?module_id=P6BSGWZVFE%3A001.000.003&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>07 — Transferring Data Offline |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Module 12 về chiến lược di chuyển lên đám mây (7Rs) và hiện đại hóa ứng dụng đã truyền cảm hứng cho em về quy trình tự động hóa phát hành phần mềm.
+
+Trong dự án Tindy, em đã hỗ trợ nhóm xây dựng pipeline CI/CD với GitHub Actions thông qua cơ chế xác thực không cần mật khẩu AWS OIDC. Mỗi khi em push code giao diện lên nhánh main, pipeline sẽ tự động chạy lệnh npm run build, đồng bộ thư mục dist/ lên bucket S3 và gửi lệnh làm mới bộ nhớ đệm (Cache Invalidation) tới CloudFront, giúp bản cập nhật giao diện mới nhất đến tay người dùng trong chưa đầy 2 phút.
+
 ### Thành tựu Tuần 12
 
 - Kiểm kê phụ thuộc và các góc nhìn AWS CAF giúp xác định công việc cần hoàn thành trước cutover.
 - 7R phân biệt mức thay đổi của ứng dụng. Với dữ liệu, chuyển đổi schema, tải ban đầu và áp dụng thay đổi là các việc cần lập kế hoạch riêng.
 - Ước tính thời gian truyền cần xét thông lượng thực tế, thời gian gián đoạn và cách đối soát dữ liệu sau chuyển.
 - **Áp dụng vào Tindy:** Thiết lập quy trình CI/CD với GitHub Actions OIDC để tự động build React (npm run build), tải lên S3 và tạo invalidation CloudFront.
+
 

@@ -24,9 +24,16 @@ pre: " <b> 1.4. </b> "
 | Thursday | **Templates, stacks, and change management**<ul><li>Review CloudFormation templates and stacks and the roles of change sets, drift detection, and StackSets.</li><li>Annotate a template's parameters, resources, and outputs. Map each task to the relevant feature: preview changes with a change set, identify differences with drift detection, and use StackSets to manage deployments across accounts or Regions.</li></ul> | Oct 8, 2026 | Oct 8, 2026 | [AWS Skill Builder — Module 4](https://skillbuilder.aws/renderer/?module_id=VEE8JSBK3Z%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>04 — Infrastructure and Automation |
 | Friday | **Region selection scenario and deployment settings**<ul><li>Choose a Region for a sample application, justify it using the selection criteria, and outline the parameters needed in a CloudFormation template.</li><li>Turn the Region decision into repeatable deployment settings. Distinguish fixed template values from parameters supplied at stack creation. Use the proposed parameters and outputs to prepare for the following week's lab.</li></ul> | Oct 9, 2026 | Oct 9, 2026 | [AWS Skill Builder — Module 4](https://skillbuilder.aws/renderer/?module_id=VEE8JSBK3Z%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>02 — Choosing AWS Regions<br>04 — Infrastructure and Automation |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+Module 4 demystified Infrastructure as Code (IaC) through AWS CloudFormation. Seeing dozens of cloud resources defined declaratively within YAML templates highlighted the value of repeatable deployments over manual AWS Console clicks.
+
+For web development, the lessons on Edge Locations and CloudFront were especially relevant. I learned that rather than forcing clients to fetch JavaScript bundles and CSS assets directly from Virginia servers, CloudFront caches them at edge locations worldwide, drastically reducing initial page load times for Vietnamese users.
+
 ### Week 4 Learning Outcomes
 
 - Region selection balances latency with data residency requirements, service features, and cost.
 - CloudFormation templates describe infrastructure, and stacks manage the resources deployed from those templates.
 - **Application in Tindy:** Selected us-east-1 for unified deployment; studied how CloudFront distributes static React bundles with minimal latency.
+
 

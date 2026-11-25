@@ -24,9 +24,16 @@ pre: " <b> 1.1. </b> "
 | Thursday | **Shared responsibility model**<ul><li>Analyze security responsibilities for Amazon EC2, Amazon RDS, and Amazon S3.</li><li>Build an AWS-versus-customer responsibility matrix for EC2, RDS, and S3. Track operating system management, access configuration, and application data separately to see how responsibilities vary by service.</li></ul> | Sep 17, 2026 | Sep 17, 2026 | [AWS Skill Builder — Module 1](https://skillbuilder.aws/renderer/?module_id=ZWYR2AX7VG%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — The AWS Shared Responsibility Model |
 | Friday | **E-commerce scenario**<ul><li>Relate deployment location, latency, and availability to an e-commerce example.</li><li>Sketch an online store serving users in two locations. Explain the Region choice based on latency and identify which components need redundancy across AZs. Summarize the security responsibilities that remain with the application team.</li></ul> | Sep 18, 2026 | Sep 18, 2026 | [AWS Skill Builder — Module 1](https://skillbuilder.aws/renderer/?module_id=ZWYR2AX7VG%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Applying Cloud Concepts to Real Life Use Cases |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+Coming from a frontend-focused background with React, I previously viewed web applications primarily through the lens of UI components and client-side rendering. Diving into Module 1 broadened my perspective on the entire Client–Server ecosystem: the browser is merely the origin of requests, while real-world availability, latency, and fault tolerance rely fundamentally on underlying cloud infrastructure.
+
+Differentiating between Regions, Availability Zones (AZs), and physical data centers clarified why project Tindy deployed in us-east-1 with dual-AZ placement. Furthermore, studying the AWS Shared Responsibility Model reinforced that while AWS secures the cloud infrastructure, our team remains strictly responsible for client-side data protection, API authentication handshakes, and proper CORS policies.
+
 ### Week 1 Learning Outcomes
 
 - Usage-based pricing and adjustable capacity reduce the need to estimate demand in advance.
 - Multi-AZ designs help applications withstand an AZ failure. Customer security responsibilities vary by service.
 - **Application in Tindy:** Analyzed the Client–Server interaction between the React frontend (Vite) and ASP.NET Core API; studied on-demand pricing models to manage costs for demo resources.
+
 

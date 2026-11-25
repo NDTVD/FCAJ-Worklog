@@ -24,9 +24,16 @@ pre: " <b> 1.1. </b> "
 | Thứ Năm | **Mô hình trách nhiệm chia sẻ**<ul><li>Phân tích trách nhiệm bảo mật khi dùng Amazon EC2, Amazon RDS và Amazon S3.</li><li>Chia trách nhiệm thành hai cột AWS và khách hàng, rồi điền ví dụ cho EC2, RDS và S3. Theo dõi riêng trách nhiệm quản lý hệ điều hành, cấu hình quyền truy cập và dữ liệu để thấy sự khác nhau giữa các loại dịch vụ.</li></ul> | 17/09/2026 | 17/09/2026 | [AWS Skill Builder — Module 1](https://skillbuilder.aws/renderer/?module_id=ZWYR2AX7VG%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — The AWS Shared Responsibility Model |
 | Thứ Sáu | **Tình huống thương mại điện tử**<ul><li>Liên hệ vị trí triển khai, độ trễ và tính sẵn sàng với ví dụ thương mại điện tử.</li><li>Phác thảo cách triển khai cửa hàng phục vụ người dùng ở hai khu vực. Giải thích lựa chọn Region dựa trên độ trễ, sau đó xác định phần nào của kiến trúc cần dự phòng qua nhiều AZ. Tóm tắt trách nhiệm bảo mật còn lại của đội ứng dụng.</li></ul> | 18/09/2026 | 18/09/2026 | [AWS Skill Builder — Module 1](https://skillbuilder.aws/renderer/?module_id=ZWYR2AX7VG%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Applying Cloud Concepts to Real Life Use Cases |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Là một sinh viên chuyên sâu về Frontend, trước đây em chủ yếu nhìn ứng dụng dưới góc độ trình duyệt và các component React. Khi bắt đầu Module 1, em nhận thức rõ hơn về bức tranh tổng thể của mô hình Client–Server: trình duyệt chỉ là điểm khởi đầu gửi đi các HTTP request, còn toàn bộ tính ổn định, độ trễ và khả năng chịu tải lại phụ thuộc vào cách bố trí hạ tầng của nhà cung cấp dịch vụ đám mây như AWS.
+
+Việc phân biệt giữa Region, Availability Zone (AZ) và data center giúp em hiểu vì sao dự án Tindy lại chọn triển khai tại us-east-1 và cần thiết kế mạng phân bổ qua 2 AZ. Ngoài ra, mô hình trách nhiệm chia sẻ (Shared Responsibility Model) đã nhắc nhở em rằng dù AWS quản lý phần cứng và mạng vật lý, trách nhiệm cấu hình bảo mật ứng dụng, mã nguồn Frontend và các chính sách CORS vẫn thuộc hoàn toàn về đội ngũ phát triển.
+
 ### Thành tựu Tuần 1
 
 - Trả phí theo mức sử dụng và điều chỉnh tài nguyên theo nhu cầu giúp giảm việc phải dự đoán công suất trước.
 - Multi-AZ giúp ứng dụng chịu được sự cố ở một AZ. Trách nhiệm bảo mật của khách hàng thay đổi theo dịch vụ sử dụng.
 - **Áp dụng vào Tindy:** Phân tích luồng Client–Server giữa React Frontend (Vite) và API ASP.NET Core; tìm hiểu cơ chế trả phí theo nhu cầu thực tế để kiểm soát chi phí cho các tài nguyên demo.
+
 

@@ -24,9 +24,16 @@ pre: " <b> 1.5. </b> "
 | Thursday | **DNS, content delivery, and traffic acceleration**<ul><li>Distinguish DNS through Route 53, content delivery through CloudFront, and traffic acceleration through Global Accelerator.</li><li>Use an application with a custom domain and static content to distinguish name resolution from content delivery. Annotate Route 53, CloudFront, and Global Accelerator at their respective points in the diagram.</li></ul> | Oct 15, 2026 | Oct 15, 2026 | [AWS Skill Builder — Module 5](https://skillbuilder.aws/renderer/?module_id=K457BUCF7F%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Global Networking |
 | Friday | **Redundant connectivity and global delivery**<ul><li>Review example architectures for resilient Direct Connect connectivity and content delivery across Regions.</li><li>Review two cases: redundant Direct Connect connectivity and content delivery across Regions. Identify what needs redundancy in each case and sketch what happens when a connection or destination becomes unavailable.</li></ul> | Oct 16, 2026 | Oct 16, 2026 | [AWS Skill Builder — Module 5](https://skillbuilder.aws/renderer/?module_id=K457BUCF7F%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>07 — Global Architectures |
 
+### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
+
+Week 5 provided essential networking insights directly impacting frontend integration. I developed a clear understanding of Amazon VPC segmentation: isolating database instances within Private Subnets while routing public ingress through controlled edge boundaries.
+
+Specifically, learning how CloudFront VPC Origins interface with internal ALBs clarified our backend security model—the API remains unexposed to the public internet while securely serving CloudFront requests. This understanding prompted my deep dive into CORS configurations within ASP.NET Core, ensuring smooth cross-origin communication between the client and API.
+
 ### Week 5 Learning Outcomes
 
 - Client VPN connects remote users, Site-to-Site VPN connects networks, Direct Connect provides dedicated connectivity, and PrivateLink enables private access to services.
 - Route tables determine traffic paths in a VPC. For global users, Route 53 handles DNS, CloudFront delivers content, and Global Accelerator optimizes traffic paths.
 - **Application in Tindy:** Understood VPC segmentation with Private Database Subnets and configuring CloudFront VPC Origins to reach the internal ALB.
+
 

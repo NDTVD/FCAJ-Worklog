@@ -24,10 +24,19 @@ pre: " <b> 1.9. </b> "
 | Thứ Năm | **Phát hiện và điều tra sự cố**<ul><li>Lập bảng vai trò: Inspector phát hiện lỗ hổng, GuardDuty tạo phát hiện về mối đe dọa, Detective hỗ trợ điều tra và Security Hub tập hợp thông tin bảo mật.</li><li>Dùng một cảnh báo mẫu để xác định tài nguyên, thời điểm và nguồn bằng chứng cần kiểm tra. Liên hệ việc ghi nhận cảnh báo với bước xác minh ảnh hưởng trước khi chọn cách xử lý.</li></ul> | 12/11/2026 | 12/11/2026 | [AWS Skill Builder — Module 9](https://skillbuilder.aws/renderer/?module_id=TNAPD78T9R%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — Detecting and Responding to Security Incidents |
 | Thứ Sáu | **Tra cứu và đánh giá nguồn bảo mật**<ul><li>Xác định khi nào cần xem tài liệu AWS để hiểu cấu hình, Knowledge Center để tra lỗi và AWS Security Blog để tìm bối cảnh của một cách triển khai.</li><li>Đọc một tình huống chọn giải pháp bảo mật từ AWS Marketplace. Lập tiêu chí đánh giá phạm vi quyền, chi phí, trách nhiệm vận hành và mức độ phù hợp với hạ tầng trước khi quyết định dùng.</li></ul> | 13/11/2026 | 13/11/2026 | [AWS Skill Builder — Module 9](https://skillbuilder.aws/renderer/?module_id=TNAPD78T9R%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Additional Security Resources |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Module 9 trang bị cho em kiến thức toàn diện về bảo mật đám mây: từ nguyên tắc đặc quyền tối thiểu (Least Privilege) của AWS IAM đến các lớp tường lửa Security Group và AWS WAF.
+
+Ở cấp độ ứng dụng, em đã trực tiếp vận dụng các bài học bảo mật để tối ưu hóa hai thành phần Backend của Tindy:
+1. Kiểm soát CORS: Chỉ cho phép đúng domain CloudFront và localhost gửi request kèm cookie/header xác thực, ngăn chặn nguy cơ tấn công Cross-Origin.
+2. Cơ chế Message Rate Limiting: Thiết lập middleware giới hạn tần suất gửi tin nhắn trong khung chat SignalR, ngăn chặn hành vi spam hoặc flood request gây cạn kiệt tài nguyên container Fargate.
+
 ### Thành tựu Tuần 9
 
 - IAM và quyền tối thiểu giới hạn những gì từng danh tính hoặc workload được làm.
 - Security group, WAF, Shield, TLS và mã hóa khi lưu trữ phục vụ các lớp bảo vệ khác nhau.
 - Một phát hiện bảo mật là đầu vào cho quá trình xác minh tài nguyên, dấu thời gian và ảnh hưởng.
 - **Áp dụng vào Tindy:** Trực tiếp cấu hình chính sách CORS trong ASP.NET Core để FE gọi API qua CloudFront an toàn, đồng thời triển khai Message Rate Limiting chống spam chat.
+
 

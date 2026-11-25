@@ -25,10 +25,17 @@ pre: " <b> 1.13. </b> "
 | Thứ Sáu | **Rà soát kiến trúc Tindy và tổng hợp kiến thức**<ul><li>Dùng sáu trụ cột để rà cấu hình demo Tindy. Đối chiếu giới hạn của một Fargate task và RDS Single-AZ với cách giám sát readiness, lưu bản sao lưu và khôi phục sau sự cố.</li><li>Phân loại những gì mã nguồn hoặc tài liệu đã mô tả và những gì cần xác minh thêm. Chuẩn bị danh sách mục tiêu, bằng chứng và nguồn trích dẫn để hoàn thiện báo cáo Việt–Anh.</li></ul> | 11/12/2026 | 11/12/2026 | [AWS Skill Builder — Module 13](https://skillbuilder.aws/renderer/?module_id=B4R4AU7BWJ%3A002.000.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>01 — Introduction to Well-Architected Solutions<br>03 — AWS Well-Architected Framework<br>04 — Specialized Use Cases |
 | Thứ Hai | **Tổng kết thực tập**<ul><li>Tổng kết thực tập và hoàn thiện báo cáo.</li><li>Chốt phần tự đánh giá dựa trên kiến thức và công việc đã ghi nhận. Rà lần cuối mục lục, nội dung Việt–Anh và nguồn của từng minh chứng trước khi hoàn thiện báo cáo.</li></ul> | 14/12/2026 | 14/12/2026 | Báo cáo thực tập |
 
+### Ghi chép & Góc nhìn cá nhân của Cao Thành Nhân
+
+Tuần cuối cùng là dịp để em nhìn lại toàn bộ chặng đường thực tập tại FCAJ. Việc học 6 trụ cột của AWS Well-Architected Framework (Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability) đã giúp em có cái nhìn toàn diện của một kỹ sư công nghệ thực thụ.
+
+Em đã cùng nhóm rà soát lại kiến trúc Tindy theo các trụ cột này, hoàn thiện kịch bản kiểm thử giao diện và nghiệm thu video demo trong Mục 5.6 của Workshop. Kỳ thực tập không chỉ giúp em nâng tầm kỹ năng lập trình Frontend mà còn mở rộng tầm nhìn về kiến trúc đám mây và tư duy giải quyết vấn đề thực tế.
+
 ### Thành tựu Tuần 13
 
 - Sáu trụ cột cung cấp tiêu chí đánh giá kiến trúc. Well-Architected Tool hỗ trợ ghi nhận câu trả lời, rủi ro và việc cải tiến.
 - Có thể giải thích vai trò của dịch vụ chuyên dụng qua ba luồng mẫu: backend serverless, biểu mẫu liên hệ và contact center.
 - Phần tổng kết liên hệ bối cảnh demo Tindy với các quyết định về bảo mật, độ tin cậy, vận hành và chi phí.
 - **Áp dụng vào Tindy:** Đánh giá kiến trúc Tindy theo 6 trụ cột Well-Architected; hoàn thiện kịch bản kiểm thử giao diện và nghiệm thu Workshop 5.6.
+
 
