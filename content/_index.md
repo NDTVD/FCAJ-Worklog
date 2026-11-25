@@ -11,9 +11,9 @@ chapter: false
 
 &emsp; **Full Name:** Cao Thành Nhân
 
-&emsp; **Phone Number:** 0963198339
+&emsp; **Phone Number:** 0325847495
 
-&emsp; **Email:** kethaman1998@gmail.com
+&emsp; **Email:** ctndx001@gmail.com
 
 &emsp; **University:** FPT University
 
@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Duration:** September 14, 2026 to December 14, 2026
 
-![Student profile photo](/images/mjoy.jpg)
+<!-- Profile photo to be updated -->
 
 ### Report Contents
 

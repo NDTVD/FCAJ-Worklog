@@ -9,9 +9,9 @@ chapter: false
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Cao Thành Nhân
 
-&emsp; **Số điện thoại:** 0963198339
+&emsp; **Số điện thoại:** 0325847495
 
-&emsp; **Email:** kethaman1998@gmail.com
+&emsp; **Email:** ctndx001@gmail.com
 
 &emsp; **Trường:** FPT University
 
@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 14/09/2026 đến ngày 14/12/2026
 
-![Ảnh đại diện của bạn](/images/mjoy.jpg)
+<!-- Ảnh đại diện sẽ cập nhật sau -->
 
 
 
