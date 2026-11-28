@@ -18,18 +18,18 @@ My core personal deliverables comprise my [13-week Worklog learning journal](/1-
 
 | # | Evaluation Criterion | Personal Basis for Evaluation | Excellent | Good | Average |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| 1 | **Professional Knowledge & Skills** | Mastered the React/TypeScript/Tailwind client architecture, integrated RESTful APIs and real-time SignalR chat. Leveraged AWS concepts to optimize client delivery via S3 + CloudFront (OAC) and implemented CORS policies and Rate Limiting on backend. | ✅ |  |  |
+| 1 | **Professional Knowledge & Skills** | Solid command of React/TypeScript/Tailwind client development and REST API integration. Learned core AWS cloud concepts through the course, though still expanding practical expertise in distributed backend systems and advanced cloud architecture. |  | ✅ |  |
 | 2 | **Learning Agility** | Consistently completed the 13-week Cloud Practitioner curriculum. When adopting new technologies like Amazon Bedrock or SignalR, I proactively researched official documentation to implement the AI resume review UI. | ✅ |  |  |
-| 3 | **Proactiveness** | Designed modern, modular UI components independently; recognized chat spam risks early and implemented backend Rate Limiting middleware. | ✅ |  |  |
+| 3 | **Proactiveness** | Designed modular UI components and proposed chat rate limiting early. However, I still seek mentor guidance when handling complex multi-tier infrastructure configurations. |  | ✅ |  |
 | 4 | **Responsibility** | Delivered all sprint interfaces on schedule (Auth, Profile, Project Discovery, Chat). Methodically debugged cross-origin API blocking on CloudFront domains until CORS issues were completely resolved. | ✅ |  |  |
-| 5 | **Discipline** | Maintained attendance, regular team meetings, and clean Git commit standards. Plan to pace documentation updates more evenly during intensive integration weeks. |  | ✅ |  |
-| 6 | **Desire to Improve** | Actively incorporated feedback from mentors and teammates to refine user experience, adjust DTOs, and optimize the application approval flow. | ✅ |  |  |
-| 7 | **Communication** | Maintained proactive dialogue with backend and cloud infrastructure members to align on API contracts, JSON formats, and authentication tokens. | ✅ |  |  |
-| 8 | **Teamwork & Collaboration** | Coordinated seamlessly across pull requests, participated in CI/CD rehearsal runs, and executed joint acceptance testing. | ✅ |  |  |
+| 5 | **Discipline** | Maintained high attendance, regular team meetings, and clean Git commit standards. Worklog documentation could be paced more evenly during intensive integration weeks. |  | ✅ |  |
+| 6 | **Desire to Improve** | Actively incorporated constructive feedback from mentors and teammates to refine user experience, adjust DTOs, and optimize the application approval flow. | ✅ |  |  |
+| 7 | **Communication** | Maintained clear dialogue with backend teammates on API contracts and data models. Continuing to improve conciseness and formal technical documentation in cross-functional discussions. |  | ✅ |  |
+| 8 | **Teamwork & Collaboration** | Coordinated seamlessly across pull requests, participated in CI/CD rehearsal runs, and executed joint acceptance testing with teammates. | ✅ |  |  |
 | 9 | **Professional Conduct** | Upheld data security standards, avoided hardcoding secrets or API keys in client bundles, and structured objective test cases. | ✅ |  |  |
-| 10 | **Problem Solving** | When troubleshooting WebSocket protocol upgrade errors across CloudFront, analyzed DevTools Network headers to adjust VPC Origin and ALB configurations, achieving HTTP 101 success. | ✅ |  |  |
-| 11 | **Contributions to Project & Community** | Delivered Tindy's entire user interface layer, real-time chat integration, CORS policies, chat spam prevention, and focused diligently on team milestone objectives. | ✅ |  |  |
-| 12 | **Overall Evaluation** | Successfully achieved internship goals by strengthening Frontend/Fullstack capabilities while developing practical cloud engineering expertise on AWS. | ✅ |  |  |
+| 10 | **Problem Solving** | Successfully troubleshot CORS and WebSocket upgrade headers via DevTools, while recognizing that resolving complex cloud infrastructure bottlenecks still benefits from team collaboration. |  | ✅ |  |
+| 11 | **Contributions to Project & Community** | Delivered Tindy's user interface layer, real-time chat integration, CORS policies, chat spam prevention, and focused diligently on team milestone objectives. |  | ✅ |  |
+| 12 | **Overall Evaluation** | Solid, steady internship performance. Met expectations by strengthening Frontend capabilities while building practical, foundational cloud engineering knowledge on AWS. |  | ✅ |  |
 
 ---
 

@@ -18,18 +18,18 @@ Báo cáo ghi nhận ba đầu ra trọng tâm của em là [nhật ký học t�
 
 | STT | Tiêu chí | Căn cứ tự đánh giá của cá nhân | Tốt | Khá | Trung bình |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| 1 | **Kiến thức và kỹ năng chuyên môn** | Em làm chủ kiến trúc Frontend React/TypeScript/Tailwind CSS, tích hợp API RESTful và SignalR WebSocket real-time chat. Em áp dụng kiến thức AWS để tối ưu phân phối client tĩnh qua S3 + CloudFront (OAC) và cấu hình chính sách CORS, cơ chế Rate Limiting bảo vệ backend. | ✅ |  |  |
-| 2 | **Khả năng học hỏi** | Em hoàn thành đều đặn nhật ký học AWS Cloud Practitioner Essentials 13 tuần. Khi tiếp cận công nghệ mới như Amazon Bedrock hay SignalR, em chủ động tìm hiểu tài liệu chính thức và áp dụng vào giao diện duyệt bản nháp hồ sơ AI. | ✅ |  |  |
-| 3 | **Tính chủ động** | Em chủ động thiết kế UI/UX theo hướng hiện đại, xây dựng hệ thống component tái sử dụng, đồng thời phát hiện sớm nguy cơ spam tin nhắn chat để đề xuất triển khai middleware Rate Limiting ở Backend. | ✅ |  |  |
-| 4 | **Tinh thần trách nhiệm** | Em cam kết hoàn thành đúng tiến độ các màn hình theo từng sprint (Auth, Profile, Project Discovery, Chat). Khi gặp lỗi trình duyệt chặn gọi API trên domain CloudFront, em kiên trì debug đến khi giải quyết triệt để vấn đề CORS. | ✅ |  |  |
-| 5 | **Kỷ luật** | Em tuân thủ thời gian học tập, họp nhóm định kỳ và quy chuẩn commit Git. Em cần cải thiện việc ghi chép nhật ký thường xuyên hơn trong những tuần cao điểm tích hợp tính năng. |  | ✅ |  |
-| 6 | **Tinh thần cầu tiến** | Em luôn lắng nghe phản hồi từ mentor và đồng đội để tinh chỉnh trải nghiệm người dùng, sửa đổi DTO và tối ưu hóa luồng tương tác Interested/Accept. | ✅ |  |  |
-| 7 | **Giao tiếp** | Em chủ động trao đổi với thành viên phụ trách Backend và Hạ tầng để thống nhất contract API, format dữ liệu JSON và cơ chế authentication token. | ✅ |  |  |
-| 8 | **Hợp tác nhóm** | Em phối hợp ăn ý với nhóm trong các đợt merge pull request giữa frontend và backend, đồng thời cùng nhóm diễn tập quy trình deploy CI/CD và kiểm thử kịch bản nghiệm thu. | ✅ |  |  |
-| 9 | **Ứng xử chuyên nghiệp** | Em tôn trọng quy tắc bảo mật dữ liệu, không hardcode secret hay API keys trên mã nguồn Frontend, và chuẩn bị kịch bản kiểm thử rõ ràng, khách quan. | ✅ |  |  |
-| 10 | **Tư duy giải quyết vấn đề** | Khi gặp lỗi nâng cấp giao thức WebSocket qua CloudFront, em sử dụng DevTools Network để phân tích header và cùng nhóm rà soát cấu hình CloudFront VPC Origin và ALB listener để khắc phục thành công mã 101. | ✅ |  |  |
-| 11 | **Đóng góp vào dự án và cộng đồng** | Đóng góp toàn bộ tầng giao diện tương tác của Tindy, luồng realtime chat SignalR, cấu hình CORS, cơ chế chống spam chat Rate Limiting, và tập trung hoàn thành đúng tiến độ các mục tiêu phát triển dự án nhóm. | ✅ |  |  |
-| 12 | **Tổng thể** | Em đánh giá bản thân đã hoàn thành xuất sắc mục tiêu thực tập, vừa củng cố vững chắc kỹ năng Frontend/Fullstack, vừa mở rộng đáng kể hiểu biết thực tế về điện toán đám mây AWS. | ✅ |  |  |
+| 1 | **Kiến thức và kỹ năng chuyên môn** | Nắm vững kỹ thuật lập trình giao diện React/TypeScript/Tailwind CSS và kết nối API RESTful. Đã tiếp thu tốt các kiến thức nền tảng đám mây qua khóa học, tuy nhiên vẫn cần tích lũy thêm kinh nghiệm thực chiến về kiến trúc hệ thống backend phân tán và hạ tầng AWS nâng cao. |  | ✅ |  |
+| 2 | **Khả năng học hỏi** | Hoàn thành đều đặn nội dung học AWS Cloud Practitioner Essentials 13 tuần. Khi tiếp cận công nghệ mới như Amazon Bedrock hay SignalR, em chủ động tìm hiểu tài liệu chính thức và áp dụng hiệu quả vào giao diện duyệt hồ sơ AI. | ✅ |  |  |
+| 3 | **Tính chủ động** | Chủ động thiết kế hệ thống component UI tái sử dụng và đề xuất giải pháp Rate Limiting cho chat. Tuy nhiên ở các cấu hình hạ tầng phức tạp đa tầng, em vẫn cần tham khảo thêm ý kiến định hướng từ mentor và đồng đội. |  | ✅ |  |
+| 4 | **Tinh thần trách nhiệm** | Cam kết hoàn thành đúng tiến độ các màn hình theo từng sprint (Auth, Profile, Project Discovery, Chat). Kiên trì tìm hiểu và debug đến khi giải quyết triệt để lỗi chặn kết nối CORS trên domain CloudFront. | ✅ |  |  |
+| 5 | **Kỷ luật** | Luôn tuân thủ thời gian học tập, tham gia đầy đủ các buổi họp nhóm và tuân thủ quy chuẩn commit Git. Cần duy trì việc ghi chép nhật ký công việc đều đặn hơn trong các giai đoạn cao điểm chạy dự án. |  | ✅ |  |
+| 6 | **Tinh thần cầu tiến** | Luôn cầu thị và sẵn sàng tiếp thu các ý kiến đóng góp mang tính xây dựng từ mentor và đồng đội để tinh chỉnh trải nghiệm người dùng, sửa đổi DTO và tối ưu hóa luồng tương tác. | ✅ |  |  |
+| 7 | **Giao tiếp** | Trao đổi rõ ràng, đúng trọng tâm với thành viên phụ trách Backend về contract API và cấu trúc dữ liệu. Tiếp tục rèn luyện kỹ năng truyền đạt ngắn gọn và chuẩn hóa tài liệu kỹ thuật trong làm việc nhóm. |  | ✅ |  |
+| 8 | **Hợp tác nhóm** | Phối hợp nhịp nhàng với nhóm trong các đợt merge pull request, cùng đồng đội diễn tập quy trình deploy CI/CD và kiểm thử các kịch bản nghiệm thu. | ✅ |  |  |
+| 9 | **Ứng xử chuyên nghiệp** | Tôn trọng nghiêm ngặt các quy tắc bảo mật dữ liệu, không hardcode credentials hay API keys trong mã nguồn client, và xây dựng các ca kiểm thử khách quan. | ✅ |  |  |
+| 10 | **Tư duy giải quyết vấn đề** | Đã khắc phục thành công sự cố CORS và nâng cấp giao thức WebSocket qua DevTools, đồng thời nhận thức được việc giải quyết các sự cố hạ tầng đám mây phức tạp cần sự phối hợp đa chiều với đồng đội. |  | ✅ |  |
+| 11 | **Đóng góp vào dự án và cộng đồng** | Đóng góp hoàn chỉnh tầng giao diện người dùng của Tindy, tích hợp chat realtime SignalR, cấu hình CORS, giải pháp chống spam chat Rate Limiting, và nỗ lực vì mục tiêu chung của nhóm. |  | ✅ |  |
+| 12 | **Tổng thể** | Đạt mức hoàn thành tốt các mục tiêu đề ra trong kỳ thực tập. Nâng cao rõ rệt năng lực lập trình Frontend và xây dựng được nền tảng tư duy kiến trúc đám mây AWS thực tế với tinh thần khiêm tốn, sẵn sàng học hỏi. |  | ✅ |  |
 
 ---
 
