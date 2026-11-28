@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Week 11 Worklog"
 date: 2024-01-01
 weight: 11
@@ -6,35 +6,32 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-**Module 11** — AWS pricing, support, and cost optimization
+**Module 11** — Cloud Economics, Cost Estimation (Pricing Calculator), and Budget Optimization
 
 ### Week 11 Objectives
 
-- Identify application cost drivers and explain when usage commitments may be worth considering.
-- Read cost data, allocate costs with tags, and design budget alerts.
-- Compare technical support needs and evaluate optimization options using usage data.
+- Utilize the AWS Pricing Calculator to formulate granular monthly cost estimations across web application infrastructure stacks.
+- Master AWS cost governance tools: AWS Cost Explorer, AWS Budgets, and automated cost alert thresholds.
+- Formulate resource optimization strategies for demo environments: scheduled compute hibernation to eliminate idle spending.
 
 ### Tasks for the Week
 
 | Day | Task | Start Date | Completion Date | References |
 | --- | --- | --- | --- | --- |
-| Monday | **Pricing models and cost drivers**<ul><li>Distinguish pay-as-you-go, savings through commitments, and tiered rates. List the three basic cost categories: compute, storage, and outbound data transfer.</li><li>Compare a Tindy demo run with always-on operation. Record Fargate and RDS hours, ALB lifetime, S3 storage, logs, and snapshots to see which items continue accruing charges between demos.</li></ul> | Nov 23, 2026 | Nov 23, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>01 — Introduction to Pricing and Support<br>02 — AWS Pricing Concepts |
-| Tuesday | **Billing Dashboard, AWS Budgets, and Cost Explorer**<ul><li>Distinguish where to view current charges, analyze trends, and configure alerts. Review actual and forecast cost examples in AWS Budgets.</li><li>Sketch cost groupings by service, account, and project tag. Identify which tags must be activated for cost allocation, then relate consolidated billing to reviewing charges across accounts.</li></ul> | Nov 24, 2026 | Nov 24, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>03 — AWS Pricing and Billing Services |
-| Wednesday | **Assessing AWS Support needs**<ul><li>Compare account and billing support with technical support for a running workload. Use the lesson scenarios to identify impact and response needs.</li><li>Draft a support case with symptoms, timing, Region, impact, and checks already performed. Distinguish initial response time from time to resolution.</li></ul> | Nov 25, 2026 | Nov 25, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>04 — AWS Support Plans |
-| Thursday | **AWS Marketplace and AWS Partner Network**<ul><li>Distinguish sourcing products or services through AWS Marketplace from finding implementation, integration, or migration expertise through the AWS Partner Network.</li><li>Evaluate a third-party tool by its pricing model, terms, permissions, and operational work. Separate vendor charges from AWS infrastructure charges incurred while running it.</li></ul> | Nov 26, 2026 | Nov 26, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — AWS Marketplace and AWS Partners |
-| Friday | **Optimizing costs using usage data**<ul><li>Review examples of compute rightsizing, RDS utilization checks, and S3 lifecycle selection. Examine transfer paths and when an S3 gateway endpoint can replace a NAT path in a suitable architecture.</li><li>Outline a cycle for measuring current cost, selecting one change, tracking its effect, and checking performance afterward. Prioritize demo resources that do not require continuous operation and list the data needed for recovery.</li></ul> | Nov 27, 2026 | Nov 27, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Cost Optimization |
+| Monday | **Architecture Cost Modeling via AWS Pricing Calculator**<ul><li>Explored the AWS Pricing Calculator: modeling architectural infrastructure to generate itemized monthly expenditure projections.</li><li>Constructed Tindy's cost estimate: modeling S3 static storage, CloudFront egress traffic, a single ECS Fargate task (0.25 vCPU, 0.5 GB RAM), a db.t4g.micro RDS instance, and Amazon Bedrock token usage.</li></ul> | Nov 23, 2026 | Nov 23, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>01 — Introduction to Pricing and Support<br>02 — AWS Pricing Concepts |
+| Tuesday | **Cost Attribution & Analysis with AWS Cost Explorer**<ul><li>Investigated AWS Cost Explorer: inspecting historical daily spending trends segmented by AWS service and geographic region.</li><li>Implemented Cost Allocation Tags: applying `Project: Tindy` and `Environment: Demo` tags to accurately isolate sprint verification expenses.</li></ul> | Nov 24, 2026 | Nov 24, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>03 — AWS Pricing and Billing Services |
+| Wednesday | **Budget Governance & Proactive Alerts with AWS Budgets**<ul><li>Configured AWS Budgets: defining strict monthly spend boundaries for our student demo environment (capped at $15.00/month).</li><li>Established multi-threshold notifications: triggering SNS alerts when actual spend crosses 80% or forecasted spend exceeds 100% of allocated limits.</li></ul> | Nov 25, 2026 | Nov 25, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>04 — AWS Support Plans |
+| Thursday | **AWS Free Tier Optimization & Compute Savings Options**<ul><li>Audited AWS Free Tier offerings: 12-month free tiers (RDS db.t3/t4g.micro), always-free services (1M Lambda requests, CloudWatch metrics), and trial credits.</li><li>Compared Fargate On-Demand versus Fargate Spot allocations, realizing up to 70% cost savings for fault-tolerant testing tasks.</li></ul> | Nov 26, 2026 | Nov 26, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>05 — AWS Marketplace and AWS Partners |
+| Friday | **Resource Scheduling & Dormant Compute Optimization**<ul><li>Analyzed idle infrastructure waste: student demo environments only require live uptime during testing and evaluation sessions, rendering 24/7 compute unnecessary.</li><li>Enacted resource scheduling discipline: scaling down ECS tasks and pausing database compute outside testing windows to eliminate idle cloud overhead.</li></ul> | Nov 27, 2026 | Nov 27, 2026 | [AWS Skill Builder — Module 11](https://skillbuilder.aws/renderer/?module_id=UGUXWW6BEZ%3A002.001.000&product_id=8D79F3AVR7%3A003.002.003&registration_id=a5d67877-3d77-5f7a-9e56-2ddce1349824&referrer=https%3A%2F%2Fskillbuilder.aws%2Flearn%2F94T2BEN85A%2Faws-cloud-practitioner-essentials%2F8D79F3AVR7&navigation=digital)<br>06 — Cost Optimization |
 
 ### Personal Reflections & Frontend Perspective (Cao Thành Nhân)
 
-Studying cloud economics instilled disciplined resource management. I gained hands-on experience with the AWS Pricing Calculator, breaking down monthly costs across Fargate compute hours, ALB listeners, RDS databases, and CloudFront bandwidth.
+Prior to this internship, I held common apprehensions that cloud infrastructure could incur unexpected runaway expenses. Week 11 completely dispelled this uncertainty by establishing disciplined financial governance practices.
 
-Understanding hourly compute billing inspired our operational schedule: placing CloudFront in maintenance mode and stopping ECS tasks between demonstration sessions, keeping our actual internship cloud spend well under  total.
+Cloud expenditures are fully manageable when forecasted early using the AWS Pricing Calculator and ring-fenced with AWS Budgets alarms. In Tindy, isolating our static React client on S3 and CloudFront (incurring negligible pennies) while running our backend on a minimal ECS Fargate task achieved immense cost efficiency: our entire evaluation lifecycle cost only a few dollars.
 
 ### Week 11 Learning Outcomes
 
-- Application cost depends on runtime and resources retained between runs.
-- Billing Dashboard, Budgets, and Cost Explorer support reviewing charges, receiving alerts, and analyzing trends.
-- An optimization proposal needs before-and-after measurements, operating expectations, and a data preservation plan.
-- **Application in Tindy:** Practiced cost modeling with AWS Pricing Calculator (~.32/mo) and adopted scheduled demo teardowns to keep actual costs under .
-
-
+- The AWS Pricing Calculator and AWS Budgets are vital instruments for financial planning and avoiding budget overruns.
+- Decoupling static frontend assets (S3/CloudFront) from server compute is the most economically efficient web architecture pattern.
+- Application in Tindy: Calculated monthly infrastructure projections; configured AWS Budgets alerts to guarantee our project remained strictly within budget.
